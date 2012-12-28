@@ -1,0 +1,22 @@
+!!! 5
+%html
+  %head
+    %title Beauty Tea
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+
+  %body
+    #user_nav
+      - if current_user
+        Welcome, 
+        %strong= current_user.name 
+        = link_to "Sign out", signout_path, id: "sign_out" 
+        !
+        = image_tag current_user.image
+      - else
+        = link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" 
+    
+    
+    = yield 
+

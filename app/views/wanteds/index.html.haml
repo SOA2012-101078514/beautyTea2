@@ -1,0 +1,25 @@
+%h1 Listing Wanteds
+
+%table#wanteds
+  %thead
+    %tr
+      %th Name 
+      %th Message
+      %th Date
+      %th 
+      %th 
+      %th 
+  
+  %tbody
+    - @wanteds.each do |wanted|
+      %tr
+        %td= wanted.name
+        %td= wanted.msg
+        %td= wanted.date
+        %td= link_to 'Show', wanted
+        %td= link_to 'Edit', edit_wanted_path(wanted)
+        %td= link_to 'Destroy', wanted, method: :delete, data: { confirm: 'Are you sure?' } 
+  
+
+=link_to 'New Wanted', new_wanted_path
+

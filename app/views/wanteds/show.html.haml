@@ -1,0 +1,18 @@
+
+
+%p
+  %b Name:
+  = @wanted.name
+
+%p
+  %b Msg:
+  = @wanted.msg 
+
+%p
+  %b Date:
+  = @wanted.date 
+
+= link_to 'Edit', edit_wanted_path(@wanted)  
+|
+\#{link_to 'Back', wanteds_path} 
+
