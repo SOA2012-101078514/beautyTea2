@@ -22783,3 +22783,392 @@ Served asset /jquery.js - 304 Not Modified (1ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-01 05:07:25 -0800
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-01 05:18:35 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-01 05:18:35 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:35 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:35 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:35 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:35 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:35 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:35 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:35 -0800
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-01 05:18:56 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-01 05:18:56 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:56 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:56 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:56 -0800
+Served asset /people.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:56 -0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:56 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:56 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-01 05:18:56 -0800
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-01 05:19:41 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.8ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-01 05:19:41 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-01 05:19:41 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-01 05:19:41 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-01 05:19:41 -0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-01 05:19:41 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-01 05:19:41 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-01 05:19:41 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-01 05:19:41 -0800
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-01 05:21:22 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (15.2ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `botton_to' for #<#<Class:0xb66016a0>:0xb540684c>):
+    9: 
+    10: %h3 會員登入 Enter your phone number
+    11: %input{:type => "phone"}
+    12: %br=botton_to '登入 Login', members_lesson01_path
+    13: 
+    14: %h4
+    15: %label=link_to '最新消息 bulletin'
+  app/views/welcome/index.html.haml:12:in `_app_views_welcome_index_html_haml___840198801__627036308'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-01 05:21:54 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.8ms)
+Completed 200 OK in 17ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-01 05:21:54 -0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-01 05:21:54 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-01 05:21:54 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-01 05:21:54 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-01 05:21:54 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-01 05:21:54 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-01 05:21:54 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-01 05:21:54 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-01 05:22:12 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-01 05:22:12 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-01 05:22:12 -0800
+Served asset /wanteds.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-01 05:22:12 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-01 05:22:12 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-01 05:22:12 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-01 05:22:12 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-01 05:22:12 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-01 05:22:12 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-01 05:23:09 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-01 05:23:09 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-01 05:23:09 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-01 05:23:09 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-01 05:23:09 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-01 05:23:09 -0800
+Served asset /people.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-01 05:23:09 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-01 05:23:09 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-01 05:23:09 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-01 05:24:09 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-01 05:24:09 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:09 -0800
+Served asset /welcome.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:09 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:09 -0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:09 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:09 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:09 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:09 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/visitors/about" for 127.0.0.1 at 2013-01-01 05:24:10 -0800
+Processing by VisitorsController#about as HTML
+  Rendered visitors/about.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-01 05:24:11 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:11 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:11 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:11 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:11 -0800
+Served asset /facebook.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:11 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:11 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-01 05:24:11 -0800
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-01 05:27:20 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-01 05:27:20 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-01 05:27:20 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-01 05:27:20 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-01 05:27:20 -0800
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-01 05:27:20 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-01 05:27:20 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-01 05:27:20 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-01 05:27:20 -0800
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started POST "/members/lesson01" for 127.0.0.1 at 2013-01-01 05:27:28 -0800
+
+ActionController::RoutingError (No route matches [POST] "/members/lesson01"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)

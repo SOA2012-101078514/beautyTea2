@@ -5,11 +5,11 @@
 %h2 [logo]
 %label 採茶線上教育體驗系統 
 %br Tea picking e-learning experience.
-%br=link_to '按此進入系統 Enter', members_lesson01_path
+%br=button_to '按此進入系統 Enter', members_lesson01_path
 
 %h3 會員登入 Enter your phone number
-%label [get inputs]
-%br=link_to '登入 Login', members_lesson01_path
+%input{:type => "phone"}
+%br=button_to '登入 Login', members_lesson01_path
 
 %h4
 %label=link_to '最新消息 bulletin'
