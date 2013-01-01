@@ -1,8 +1,6 @@
-%h0
-%label Yo! It's
-%label= Time.now
+-# %h0
 
-%h1
-%label=link_to 'Visitor'
-%label=link_to 'Member', members_login_path
-%label=link_to 'Adminstrator'
+%label [logo]
+%br=link_to '點此進入 Enter'
+
+

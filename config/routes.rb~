@@ -5,7 +5,7 @@ Tea::Application.routes.draw do
 
   # match "*path" => "pages#404"
 
-  root :to => 'welcom#index'
+  root :to => 'welcome#index'
   # resources :welcome  
   # resources :wanteds  
   # resources :visitors
@@ -20,7 +20,7 @@ Tea::Application.routes.draw do
   get "members/lesson02" => "members#lesson02"
   get "members/lesson03" => "members#lesson03"
   # get "bulletins/index" => "bulletins#index"
-  get "welcome/index" => "welcom#index"
+  get "welcome/index" => "welcome#index"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
