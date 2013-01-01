@@ -1,0 +1,10 @@
+%h0 vistor
+%label HR Service Website
+%h1
+%label= link_to "Home", root_path
+
+
+%label=link_to 'Bulletin Board', wanteds_path
+%label=link_to 'About Us', wanteds_path
+%label=link_to 'Go Picking', wanteds_path
+%label=link_to 'Home', root_path

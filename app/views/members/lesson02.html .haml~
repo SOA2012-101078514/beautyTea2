@@ -1,0 +1,12 @@
+%h0 Member
+
+%h1 lesson 2
+%label YoYo
+
+%h2
+%label=link_to 'Next', members_lesson03_path
+
+%h3 test link
+= link_to 'Edit', edit_wanted_path(@wanted)  
+|
+\#{link_to 'Back', wanteds_path} 

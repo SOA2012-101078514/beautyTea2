@@ -3,12 +3,19 @@ Tea::Application.routes.draw do
   match 'auth/failure', to: redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout' 
  
-  root :to => 'wanteds#index'
-  resources :wanteds
-  resources :people
+  root :to => 'welcome#welcome'
+  resources :welcome  
+  resources :wanteds  
+  resources :visitors
 
-  get "welcome/say_hello" => "welcome#say"
-  get "welcome" => "welcome#index"
+  # get "welcome/say_hello" => "welcome#say"
+  get "welcome" => "welcome#welcome"
+  get "welcome/bulletin" => "welcome#bulletin"
+  get "visitors/about" => "visitors#about"
+  get "members/login" => "members#login"
+  get "members/lesson01" => "members#lesson01"
+  get "members/lesson02" => "members#lesson02"
+  #get "members/lesson03" => "members#lesson03"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -59,7 +66,7 @@ Tea::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'welcome#index'
+  # root :to => 'welcome#index'
 
   # See how all your routes lay out with "rake routes"
 
