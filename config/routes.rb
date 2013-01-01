@@ -5,12 +5,12 @@ Tea::Application.routes.draw do
  
   root :to => 'welcome#welcome'
   resources :welcome  
-  resources :wanteds  
-  resources :visitors
+  # resources :wanteds  
+  # resources :visitors
 
-  # get "welcome/say_hello" => "welcome#say"
-  get "welcome" => "welcome#welcome"
-  get "welcome/bulletin" => "welcome#bulletin"
+
+  # get "welcome/welcome" => "welcome#welcome"
+  get "visitors/bulletin" => "visitors#bulletin"
   get "visitors/about" => "visitors#about"
   get "members/login" => "members#login"
   get "members/lesson01" => "members#lesson01"

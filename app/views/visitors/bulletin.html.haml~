@@ -4,7 +4,7 @@
 %label=link_to 'Bulletin Board'
 %label=link_to 'About Us', visitors_about_path
 %label=link_to 'Go Picking'
-%label=link_to 'Home', welcome_path
+%label=link_to 'Home', welcome_welcome_path
 
 %h2
 %table#bulletin

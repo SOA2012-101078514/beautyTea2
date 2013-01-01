@@ -5,17 +5,17 @@ Tea::Application.routes.draw do
  
   root :to => 'welcome#welcome'
   resources :welcome  
-  resources :wanteds  
-  resources :visitors
+  # resources :wanteds  
+  # resources :visitors
 
   # get "welcome/say_hello" => "welcome#say"
-  get "welcome" => "welcome#welcome"
-  get "welcome/bulletin" => "welcome#bulletin"
+  get "welcome/welcome" => "welcome#welcome"
+  get "visitors/bulletin" => "visitors#bulletin"
   get "visitors/about" => "visitors#about"
   get "members/login" => "members#login"
   get "members/lesson01" => "members#lesson01"
   get "members/lesson02" => "members#lesson02"
-  # get "members/lesson03" => "members#lesson03"
+  get "members/lesson03" => "members#lesson03"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
