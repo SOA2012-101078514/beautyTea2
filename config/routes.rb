@@ -21,6 +21,8 @@ Tea::Application.routes.draw do
   get "members/lesson03" => "members#lesson03"
   # get "bulletins/index" => "bulletins#index"
   get "welcome/index" => "welcome#index"
+  get "welcome/test" => "welcome#test"
+  get "wanteds" => "wanteds#index"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
