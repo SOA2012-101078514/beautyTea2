@@ -5320,3 +5320,89 @@ Served asset /application.js - 304 Not Modified (36ms)
 
 Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2012-12-28 21:53:44 +0800
 Served asset /welcome.js - 304 Not Modified (12ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 22:16:10 +0800
+Connecting to database specified by database.yml
+Processing by WantedsController#index as HTML
+  [1m[36mWanted Load (0.0ms)[0m  [1mSELECT "wanteds".* FROM "wanteds" [0m
+  Rendered wanteds/index.html.haml within layouts/application (72.0ms)
+  [1m[35mUser Load (68.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1976ms (Views: 764.0ms | ActiveRecord: 156.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 22:16:20 +0800
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:20 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (64ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:20 +0800
+Served asset /jquery.js - 304 Not Modified (76ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:21 +0800
+Served asset /facebook.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:21 +0800
+Served asset /wanteds.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:21 +0800
+Served asset /people.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:21 +0800
+Served asset /welcome.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:21 +0800
+Served asset /application.js - 304 Not Modified (232ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-12-28 22:16:27 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 22:16:27 +0800
+Processing by WantedsController#index as HTML
+  [1m[36mWanted Load (0.0ms)[0m  [1mSELECT "wanteds".* FROM "wanteds" [0m
+  Rendered wanteds/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 120ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-12-28 22:16:28 +0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:28 +0800
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:28 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:28 +0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:28 +0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:28 +0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:28 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-12-28 22:16:28 +0800
+Served asset /application.js - 304 Not Modified (16ms)
