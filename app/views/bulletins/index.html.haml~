@@ -1,29 +1,30 @@
 = stylesheet_link_tag 'test02'
 -# %h1 Listing bulletins
 
-%h1= image_tag('banner.png')
+%div#banner
+  = image_tag('banner.png')    
 
-%label= link_to image_tag( 'btn_newinfo.png')
-%label= link_to image_tag( 'btn_deptintro.png'), visitors_about_path
-%label= link_to image_tag( 'btn_eduprocess.png')
-%label= link_to image_tag( 'btn_certification.png')
-
-%table#bulletins
-  %thead
-    %tr
-      %th Msg 公  告  訊  息
-      %th Date 活動日期
-      %th Deadline 截止報名
-      
-  
-  %tbody
-    - @bulletins.each do |bulletin|
+%div#main
+  %label= link_to image_tag( 'btn_newinfo.png')
+  %label= link_to image_tag( 'btn_deptintro.png'), visitors_about_path
+  %label= link_to image_tag( 'btn_eduprocess.png')
+  %label= link_to image_tag( 'btn_certification.png')
+  %table#bulletins
+    %thead
       %tr
-        %td= bulletin.msg
-        %td= bulletin.date
-        %td= bulletin.deadline
-        %td= link_to 'Show', bulletin
+        %th 公告訊息
+        %th 活動日期
+        %th 截止報名     
+    %tbody
+      - @bulletins.each do |bulletin|
+        %tr
+          %td= bulletin.msg
+          %td= bulletin.date
+          %td= bulletin.deadline
+          %td= link_to 'Show 詳情', bulletin
+          %td= link_to 'Destroy 刪除', bulletin, method: :delete, data: { confirm: 'Are you sure? 確定要刪除嗎？' } 
+  =link_to 'New Bulletin', new_bulletin_path
 
-        %td= link_to 'Destroy', bulletin, method: :delete, data: { confirm: 'Are you sure? 確定要刪除嗎？' } 
-  
-%h6=link_to 'New Bulletin', new_bulletin_path
+%div#enter
+  %b= link_to image_tag('btn_entersys.png')
+

@@ -1,12 +1,5 @@
-<h1>Editing bulletin</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @bulletin %> |
-<%= link_to 'Back', bulletins_path %>
-
 %h1 Editing bulletin
 = render 'form'
-= link_to 'Show', @bulletin
+= link_to '詳情', @bulletin
 |
-\#{link_to 'Back', bulletins_path}
+\#{link_to '回前頁', bulletins_path}

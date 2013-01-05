@@ -1,7 +1,7 @@
 html, body {  
   margin: 0;
-  #background-color:White;
-  background-image:url(index.png);
+  background-color:#8cc63f;
+  #background-image:url(index.png);
   background-repeat:no-repeat;
   color: DarkSlateGrey;
   font-family: Tahoma, Verdana, sans-serif;
@@ -13,13 +13,45 @@ table#bulletins {
   #float:right;
   #margin: right;
   #padding: 0 20px 20px;
-  #background: white;
-  margin-top: 15%;
-  margin-left: 25%;
+  background: white;
+  #margin-top: 15%;
+  #margin-left: 25%;
+  width: 630px;
+  height: 470px;
 }
-h2 {
-  text-align: center;
+table#bulletins th {
+  text-align: left;
 }
+
+div#banner {
+  #width: 900px;
+  height: 25%;
+}
+div#enter {
+  width: 30%;
+  height: 60%;
+  #margin-top: 25%;
+  #margin-left: 2%;
+  background-image:url(e-learning.png);
+  background-repeat:no-repeat;
+  position: absolute;
+  top:30%;
+  left:2%;
+}
+div#enter b {
+  position: absolute;
+  top:60%;
+  left:8%;
+}
+
+div#main {
+  #background-color:#8cc63f;
+  margin-left: 22%;
+  position: absolute;
+  top:33%;
+}
+
+
 table#movies {
   margin: 10px;
   border-collapse: collapse;
@@ -35,3 +67,5 @@ table#movies th, table#movies td {
   padding: 4px;
   text-align: left;
 }
+
+

@@ -2,4 +2,5 @@
 
 = render :partial => 'form' 
 
-= link_to 'Back', wanteds_path
+= link_to '回前頁', bulletins_path
+

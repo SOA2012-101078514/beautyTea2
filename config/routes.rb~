@@ -1,4 +1,6 @@
 Tea::Application.routes.draw do  
+  resources :bulletins
+
   match 'auth/:provider/callback', to: 'sessions#create'
   match 'auth/failure', to: redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout' 
@@ -9,7 +11,7 @@ Tea::Application.routes.draw do
   # resources :welcome  
   # resources :wanteds  
   # resources :visitors
-  # resources :bulletins
+  resources :bulletins
 
 
   # get "welcome/welcome" => "welcome#welcome"
@@ -23,7 +25,7 @@ Tea::Application.routes.draw do
   get "welcome/index" => "welcome#index"
   get "welcome/test" => "welcome#test"
   get "wanteds/index" => "wanteds#index"
-  get "wanteds/show" => "wanteds#show"
+  get "wanteds/edit" => "wanteds#edit"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

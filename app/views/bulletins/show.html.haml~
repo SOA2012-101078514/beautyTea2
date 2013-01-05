@@ -10,7 +10,7 @@
   %b Deadline:
   = @bulletin.deadline 
 
-= link_to 'Edit', edit_bulletins_path(@bulletin)  
+= link_to '編輯', edit_bulletin_path(@bulletin)  
 |
-\#{link_to 'Back', bulletins_path} 
+\#{link_to '回前頁', bulletins_path} 
 

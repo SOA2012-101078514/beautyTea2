@@ -7,11 +7,11 @@ Tea::Application.routes.draw do
 
   # match "*path" => "pages#404"
 
-  root :to => 'welcome#welcome'
+  root :to => 'bulletins#index'
   # resources :welcome  
   # resources :wanteds  
   # resources :visitors
-  # resources :bulletins
+  resources :bulletins
 
 
   # get "welcome/welcome" => "welcome#welcome"
