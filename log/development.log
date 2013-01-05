@@ -52668,3 +52668,166 @@ Migrating to CreateBulletins (20130105075439)
   [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
   [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("wanteds")[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePeople (20121217032853)
+Migrating to CreateWanteds (20121217053146)
+Migrating to CreateUsers (20121228081005)
+Migrating to CreateBulletins (20130105075439)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "bulletins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "msg" varchar(255), "date" date, "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130105075439')[0m
+  [1m[35m (63.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("bulletins")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("wanteds")[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-06 02:46:10 +0800
+Connecting to database specified by database.yml
+Processing by BulletinsController#welcome as HTML
+  Rendered bulletins/welcome.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 294ms (Views: 293.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-06 02:46:12 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-06 02:46:12 +0800
+Served asset /people.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-06 02:46:12 +0800
+Served asset /wanteds.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-06 02:46:12 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-06 02:46:12 +0800
+Served asset /facebook.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-06 02:46:13 +0800
+Served asset /bulletins.js - 200 OK (5ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-06 02:46:13 +0800
+Served asset /welcome.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-06 02:46:13 +0800
+Served asset /application.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-01-06 02:46:13 +0800
+Served asset /welcome.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-06 02:46:13 +0800
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/welcome.png" for 127.0.0.1 at 2013-01-06 02:46:13 +0800
+Served asset /welcome.png - 200 OK (3ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2013-01-06 02:46:23 +0800
+Processing by BulletinsController#index as HTML
+  [1m[36mBulletin Load (0.1ms)[0m  [1mSELECT "bulletins".* FROM "bulletins" [0m
+  Rendered bulletins/index.html.haml within layouts/application (73.7ms)
+Completed 500 Internal Server Error in 336ms
+
+ActionView::Template::Error (undefined local variable or method `visitors_about_path' for #<#<Class:0xa351894>:0xb61405a8>):
+    8: 
+    9: %div#main
+    10:   %label= link_to image_tag( 'btn_newinfo.png')
+    11:   %label= link_to image_tag( 'btn_deptintro.png'), visitors_about_path
+    12:   %label= link_to image_tag( 'btn_eduprocess.png')
+    13:   %label= link_to image_tag( 'btn_certification.png')
+    14:   %table#bulletins
+  app/views/bulletins/index.html.haml:11:in `_app_views_bulletins_index_html_haml__1065918055__620102468'
+  app/controllers/bulletins_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.7ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePeople (20121217032853)
+Migrating to CreateWanteds (20121217053146)
+Migrating to CreateUsers (20121228081005)
+Migrating to CreateBulletins (20130105075439)
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("bulletins")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("wanteds")
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-06 02:48:13 +0800
+Connecting to database specified by database.yml
+Processing by BulletinsController#welcome as HTML
+  Rendered bulletins/welcome.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 147ms (Views: 146.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-06 02:48:14 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-06 02:48:14 +0800
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-06 02:48:14 +0800
+Served asset /facebook.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-06 02:48:15 +0800
+Served asset /wanteds.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-06 02:48:15 +0800
+Served asset /people.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-06 02:48:15 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-06 02:48:15 +0800
+Served asset /welcome.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-06 02:48:15 +0800
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2013-01-06 02:48:24 +0800
+Processing by BulletinsController#index as HTML
+  [1m[36mBulletin Load (0.1ms)[0m  [1mSELECT "bulletins".* FROM "bulletins" [0m
+  Rendered bulletins/index.html.haml within layouts/application (78.9ms)
+Completed 500 Internal Server Error in 210ms
+
+ActionView::Template::Error (undefined local variable or method `visitors_about_path' for #<#<Class:0x9a3f148>:0xb624f854>):
+    8: 
+    9: %div#main
+    10:   %label= link_to image_tag( 'btn_newinfo.png')
+    11:   %label= link_to image_tag( 'btn_deptintro.png'), visitors_about_path
+    12:   %label= link_to image_tag( 'btn_eduprocess.png')
+    13:   %label= link_to image_tag( 'btn_certification.png')
+    14:   %table#bulletins
+  app/views/bulletins/index.html.haml:11:in `_app_views_bulletins_index_html_haml___596142032__619893528'
+  app/controllers/bulletins_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
