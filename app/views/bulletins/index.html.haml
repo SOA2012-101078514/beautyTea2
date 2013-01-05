@@ -26,5 +26,7 @@
   =link_to 'New Bulletin 新增公告', new_bulletin_path
 
 %div#enter
-  %b= link_to image_tag('btn_entersys.png')
+  %b= link_to image_tag('btn_entersys.png'), data: { confirm: 'Please login! 請先登入!' }
 
+%div#login
+  %input{:type => "phone"}

@@ -44,11 +44,25 @@ div#enter b {
   left:8%;
 }
 
+div#login {
+  background: black;
+  width: 20%;
+  height: 30%;
+  position: absolute;
+  top:86%;
+  left:2%;
+}
+div#login input {
+  position: absolute;
+  top:90%;
+  left:2%;
+}
+
 div#main {
   #background-color:#8cc63f;
   margin-left: 22%;
   position: absolute;
-  top:33%;
+  top:34%;
 }
 
 
