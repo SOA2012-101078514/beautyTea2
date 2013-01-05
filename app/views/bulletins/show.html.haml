@@ -1,0 +1,16 @@
+%p
+  %b Date:
+  = @bulletin.date 
+
+%p
+  %b Msg:
+  = @bulletin.msg 
+
+%p
+  %b Name:
+  = @bulletin.organizer
+
+= link_to 'Edit', edit_bulletin_path(@bulletin)  
+|
+\#{link_to 'Back', bulletin_path} 
+

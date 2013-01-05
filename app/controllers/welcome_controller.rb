@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
-    def say
+
+    def welcome
     end
 
     def index

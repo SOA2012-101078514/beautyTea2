@@ -1,3 +1,11 @@
+%h0 Tea!
+
+%label=link_to 'Bulletin Board', wanteds_path
+%label=link_to 'About Us', wanteds_path
+%label=link_to 'Go Picking', wanteds_path
+%label=link_to 'Home' 
+
+
 %h1 Listing Wanteds
 
 %table#wanteds
@@ -6,9 +14,7 @@
       %th Name 
       %th Message
       %th Date
-      %th 
-      %th 
-      %th 
+      
   
   %tbody
     - @wanteds.each do |wanted|

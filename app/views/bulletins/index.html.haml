@@ -1,0 +1,31 @@
+%h0 Tea!
+
+%label=link_to 'Bulletin board'
+%label=link_to 'About us'
+%label=link_to 'Go picking'
+%label=link_to 'Home' 
+
+
+%h1 Bulletins board
+
+%table#bulletins
+  %thead
+    %tr
+      %th Date
+      %th Message
+      %th Organizer
+      
+  
+  %tbody
+    - @bulletins.each do |bulletin|
+      %tr
+        %td= bulletin.date
+        %td= bulletin.msg
+        %td= bulletin.organizer                
+        %td= link_to 'Show', bulletin
+        %td= link_to 'Edit', edit_bulletin_path(bulletin)
+        %td= link_to 'Destroy', bulletin, method: :delete, data: { confirm: 'Are you sure?' } 
+  
+
+=link_to 'New', new_bulletin_path
+

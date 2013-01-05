@@ -1,0 +1,16 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.square {
+  height: 100px;
+        width: 100px;
+        background-color: red;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        color: white;
+        text-align: center;
+}
+
+var square = $('.square');

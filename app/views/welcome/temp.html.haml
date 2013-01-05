@@ -1,0 +1,57 @@
+!!!5
+%html
+  %head
+    %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}
+    = stylesheet_link_tag('application')
+    = javascript_include_tag(:defaults)
+    %title= yield :title
+  %body
+    #banner= image_tag('welcome.png', :size => '263x135')
+    #menu
+      #menu-container
+        -# = render :partial => ''
+    #content
+      = yield
+      #footer
+        %p
+          copyright &copy;
+          = "#{Date.today.year}."
+          all rights reserved
+        -# %p= footer_links
+
+
+-# %h0
+
+%label [logo]
+%br=link_to '點此進入 Enter', welcome_index_path
+
+
+
+%br image_tag
+= image_tag("welcome.png")
+%br
+%br link to google
+= link_to image_tag( 'welcome.png'), 'http://www.google.com'
+%br
+%br link to next page
+= link_to image_tag( 'welcome.png'), welcome_index_path
+%br
+%br =====================================
+-# %h0
+
+%h1 [logo]東方美人茶永續經營中心
+
+%h2 [logo]
+%label 採茶線上教育體驗系統 
+%br Tea picking e-learning experience.
+%br=button_to '按此進入系統 Enter', members_lesson01_path
+
+%h3 會員登入 Enter your phone number
+%input{:type => "phone"}
+%br=button_to '登入 Login', members_lesson01_path
+
+%h4
+%label=link_to '最新消息 bulletin'
+%label=link_to '單位介紹 about us'
+%label=link_to '訓練程序 education process'
+%label=link_to '認證梯次 certification'
