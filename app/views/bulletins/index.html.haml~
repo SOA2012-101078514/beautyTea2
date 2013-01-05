@@ -1,8 +1,10 @@
-= stylesheet_link_tag 'test02'
--# %h1 Listing bulletins
-
+= stylesheet_link_tag 'home'
 %div#banner
-  = image_tag('banner.png')    
+  = link_to image_tag('banner.png'), root_path    
+%div#enter
+  %b= link_to image_tag('btn_entersys.png'), data: { confirm: 'Please login! 請先登入!' }
+%div#login
+  %input{:type => "phone"}
 
 %div#main
   %label= link_to image_tag( 'btn_newinfo.png')
@@ -25,8 +27,4 @@
           %td= link_to 'Destroy 刪除', bulletin, method: :delete, data: { confirm: 'Are you sure? 確定要刪除嗎？' } 
   =link_to 'New Bulletin 新增公告', new_bulletin_path
 
-%div#enter
-  %b= link_to image_tag('btn_entersys.png'), data: { confirm: 'Please login! 請先登入!' }
 
-%div#login
-  %input{:type => "phone"}

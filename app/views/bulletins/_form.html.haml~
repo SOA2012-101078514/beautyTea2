@@ -1,4 +1,11 @@
-= stylesheet_link_tag 'test'
+= stylesheet_link_tag 'home'
+%div#banner
+  = link_to image_tag('banner.png'), root_path    
+%div#enter
+  %b= link_to image_tag('btn_entersys.png')
+%div#login
+  %input{:type => "phone"}
+
 = form_for(@bulletin) do |f|
   - if @bulletin.errors.any?
     #error_explanation
