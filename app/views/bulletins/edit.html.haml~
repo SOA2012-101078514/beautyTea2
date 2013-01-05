@@ -1,5 +1,12 @@
-%h1 Editing wanted
+<h1>Editing bulletin</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @bulletin %> |
+<%= link_to 'Back', bulletins_path %>
+
+%h1 Editing bulletin
 = render 'form'
-= link_to 'Show', @wanted
+= link_to 'Show', @bulletin
 |
-\#{link_to 'Back', wanteds_path}
+\#{link_to 'Back', bulletins_path}

@@ -1,18 +1,16 @@
 %p
+  %b Msg:
+  = @bulletin.msg
+
+%p
   %b Date:
   = @bulletin.date 
 
 %p
-  %b Name:
-  = @bulletin.name
+  %b Deadline:
+  = @bulletin.deadline 
 
-%p
-  %b Msg:
-  = @bulletin.msg 
-
-
-
-= link_to 'Edit', edit_bulletin_path(@bulletin)  
+= link_to 'Edit', edit_bulletins_path(@bulletin)  
 |
-\#{link_to 'Back', bulletin_path} 
+\#{link_to 'Back', bulletins_path} 
 

@@ -1,31 +1,30 @@
-%h0 Tea!
+= stylesheet_link_tag 'test02'
+-# %h1 Listing bulletins
 
-%label=link_to 'Bulletin board'
-%label=link_to 'About us'
-%label=link_to 'Go picking'
-%label=link_to 'Home' 
+%h1= image_tag('banner.png')
 
-
-%h1 Bulletins board
+%label=image_tag('e-learning.png')
+%label= link_to image_tag( 'btn_newinfo.png')
+%label= link_to image_tag( 'btn_deptintro.png'), visitors_about_path
+%label= link_to image_tag( 'btn_eduprocess.png')
+%label= link_to image_tag( 'btn_certification.png')
 
 %table#bulletins
   %thead
     %tr
-      %th Date
-      %th Message
-      %th Organizer
+      %th Msg 公  告  訊  息
+      %th Date 活動日期
+      %th Deadline 截止報名
       
   
   %tbody
     - @bulletins.each do |bulletin|
       %tr
-        %td= bulletin.date
         %td= bulletin.msg
-        %td= bulletin.organizer                
+        %td= bulletin.date
+        %td= bulletin.deadline
         %td= link_to 'Show', bulletin
-        %td= link_to 'Edit', edit_bulletin_path(bulletin)
-        %td= link_to 'Destroy', bulletin, method: :delete, data: { confirm: 'Are you sure?' } 
+
+        %td= link_to 'Destroy', bulletin, method: :delete, data: { confirm: 'Are you sure? 確定要刪除嗎？' } 
   
-
-=link_to 'New', new_bulletin_path
-
+%h6=link_to 'New Bulletin', new_bulletin_path
