@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  msg: MyString
+  date: 2013-01-04
+  deadline: 2013-01-04
+
+two:
+  msg: MyString
+  date: 2013-01-04
+  deadline: 2013-01-04

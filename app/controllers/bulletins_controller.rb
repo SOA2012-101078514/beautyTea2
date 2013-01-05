@@ -5,7 +5,7 @@ class BulletinsController < ApplicationController
     @bulletins = Bulletin.all
 
     respond_to do |format|
-      format.html # index.html.haml
+      format.html # index.html.erb
       format.json { render json: @bulletins }
     end
   end
@@ -16,7 +16,7 @@ class BulletinsController < ApplicationController
     @bulletin = Bulletin.find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.haml
+      format.html # show.html.erb
       format.json { render json: @bulletin }
     end
   end
@@ -27,7 +27,7 @@ class BulletinsController < ApplicationController
     @bulletin = Bulletin.new
 
     respond_to do |format|
-      format.html # new.html.haml
+      format.html # new.html.erb
       format.json { render json: @bulletin }
     end
   end
@@ -81,4 +81,3 @@ class BulletinsController < ApplicationController
     end
   end
 end
-

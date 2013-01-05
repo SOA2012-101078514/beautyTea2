@@ -3,6 +3,6 @@ class WelcomeController < ApplicationController
     def welcome
     end
 
-    def show
+    def index
     end
 end

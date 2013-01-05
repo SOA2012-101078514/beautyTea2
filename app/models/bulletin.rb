@@ -1,3 +1,3 @@
 class Bulletin < ActiveRecord::Base
-  attr_accessible :msg, :date, :name
+  attr_accessible :date, :deadline, :msg
 end
