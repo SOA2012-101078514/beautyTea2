@@ -9,10 +9,24 @@ Tea::Application.routes.draw do
 
   root :to => 'bulletins#welcome'
   resources :bulletins
+  #resources :courses
 
   get "bulletins" => "bulletins"
-
-
+  get "courses/s11" => "courses#s11"
+  get "courses/s12" => "courses#s12"
+  get "courses/s21" => "courses#s21"
+  get "courses/s21" => "courses#s22"
+  get "courses/s21" => "courses#s23"
+  get "courses/s21" => "courses#s24"
+  get "courses/s21" => "courses#s31"
+  get "courses/s21" => "courses#s32"
+  get "courses/s21" => "courses#s33"
+  get "courses/s21" => "courses#s34"
+  get "courses/s21" => "courses#s35"
+  get "courses/s21" => "courses#s36"
+  get "courses/s21" => "courses#s37"
+  get "courses/s21" => "courses#s4"
+ 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

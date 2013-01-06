@@ -20,8 +20,8 @@ div#image {
 
 div#enter {
   position: absolute;
-  top:90%;
-  left:37%;
+  top:63%;
+  left:45%;
   #margin-top:2px;
 
 }
