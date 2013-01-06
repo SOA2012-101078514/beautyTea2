@@ -1,3 +1,0 @@
-class User < ActiveRecord::Base
-  attr_accessible :email, :firstname, :image, :lastname, :name, :oauth_expires_at, :oauth_token, :phone, :provider, :uid
-end

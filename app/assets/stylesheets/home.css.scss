@@ -32,7 +32,7 @@ div#enter b {
 }
 
 div#login {
-  background: black;
+  
   width: 20%;
   height: 30%;
   position: absolute;
@@ -55,11 +55,14 @@ div#main {
 }
 table#bulletins {
   background: white;
-  width: 630px;
-  height: 470px;
+  padding: 4px;
+  text-align: left;
 }
 table#bulletins th {
   text-align: left;
+  padding: 4px;
+  border: 2px solid white;
+  
 }
 
 

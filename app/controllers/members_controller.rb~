@@ -1,6 +1,0 @@
-class MembersController < ApplicationController
-
-    def 
-    end
-
-end
