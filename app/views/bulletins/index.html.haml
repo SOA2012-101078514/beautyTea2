@@ -9,6 +9,7 @@
     %input{:type => "phone"}
     %btn_login= link_to button_to 'login'
 
+<<<<<<< HEAD
   %div#main
     %label= link_to image_tag( 'btn_newinfo.png')
     %label= link_to image_tag( 'btn_deptintro.png')
@@ -16,6 +17,21 @@
     %label= link_to image_tag( 'btn_certification.png')
     %table#bulletins
       %thead
+=======
+%div#main
+  %label= link_to image_tag( 'btn_newinfo.png')
+  %label= link_to image_tag( 'btn_deptintro.png')
+  %label= link_to image_tag( 'btn_eduprocess.png')
+  %label= link_to image_tag( 'btn_certification.png')
+  %table#bulletins
+    %thead
+      %tr
+        %th 公告訊息
+        %th 活動日期
+        %th 截止報名     
+    %tbody
+      - @bulletins.each do |bulletin|
+>>>>>>> f3e5733103cef53303e413b6c647d78043ef4369
         %tr
           %th 公告訊息
           %th 活動日期
