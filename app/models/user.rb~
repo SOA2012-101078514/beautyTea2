@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  attr_accessor :mode, :name, :phone
+  attr_accessor :mode, :name, :phone, :phone_confirmation
 
 
   validates_presence_of :phone, :on => :create

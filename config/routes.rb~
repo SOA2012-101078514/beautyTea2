@@ -2,10 +2,10 @@ Tea::Application.routes.draw do
   get "sign_up" => "users#new", :as => "sign_up"
 
   # match "*path" => "pages#404"
-  root :to => "users#new"
+	root :to => "users#new"
   #root :to => 'bulletins#welcome'
   resources :bulletins
-  resources :users
+	resources :users
   get "bulletins" => "bulletins"
 
 
