@@ -1,4 +1,11 @@
+= stylesheet_link_tag 'welcome'
 %br=link_to '點此進入 Enter', bulletins_path
+
+%div#image
+  =image_tag('welcome.png')
+
+%div#enter
+  = link_to image_tag('leaf_enter.png'), bulletins_path
 
 
 

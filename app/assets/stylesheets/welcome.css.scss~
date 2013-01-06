@@ -4,6 +4,24 @@
 
 html, body {  
   margin: 0;
-  background-image:url(welcome.png);
+  background-color:#8cc63f;
+  #background-image:url(welcome.png);
   background-repeat:no-repeat;
+}
+
+div#image {
+  #background-image:url(welcome.png);
+  position: absolute;
+  #top:1%;
+  #left:0px;
+  #align:center;
+  #margin-top:2px;
+}
+
+div#enter {
+  position: absolute;
+  top:90%;
+  left:37%;
+  #margin-top:2px;
+
 }

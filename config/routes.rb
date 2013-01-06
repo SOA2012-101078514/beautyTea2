@@ -9,9 +9,10 @@ Tea::Application.routes.draw do
 
   root :to => 'bulletins#welcome'
   resources :bulletins
+  resources :courses
 
   get "bulletins" => "bulletins"
-
+  get "courses" => "courses"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

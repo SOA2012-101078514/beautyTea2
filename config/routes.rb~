@@ -10,7 +10,7 @@ Tea::Application.routes.draw do
   root :to => 'bulletins#welcome'
   resources :bulletins
 
-  get "bulletins" => "bulletins#index"
+  get "bulletins" => "bulletins"
 
 
   # The priority is based upon order of creation:

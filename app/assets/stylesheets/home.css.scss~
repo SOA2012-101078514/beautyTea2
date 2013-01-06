@@ -8,7 +8,10 @@ html, body {
   font-size: 10pt;
 }
 
-
+h1 {
+ font-size:8pt;
+ text-align:center;
+}
 
 div#banner {
   #width: 900px;
@@ -62,6 +65,4 @@ table#bulletins th {
   text-align: left;
 }
 
-h1 {
-text-align: center;
-}
+

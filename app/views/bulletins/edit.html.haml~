@@ -11,6 +11,7 @@
   %label= link_to image_tag( 'btn_deptintro.png'), visitors_about_path
   %label= link_to image_tag( 'btn_eduprocess.png')
   %label= link_to image_tag( 'btn_certification.png')
+  
   %h1 Edit 編輯公告
   = render 'form'
   = link_to 'Show 詳情', @bulletin
