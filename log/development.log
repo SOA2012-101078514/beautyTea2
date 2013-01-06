@@ -78955,3 +78955,389 @@ Served asset /application.js - 304 Not Modified (12ms)
 Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-07 01:47:47 +0800
 Served asset /wanteds.js - 304 Not Modified (0ms)
 >>>>>>> f3e5733103cef53303e413b6c647d78043ef4369
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-06 14:31:21 -0800
+Connecting to database specified by database.yml
+Processing by BulletinsController#welcome as HTML
+  Rendered bulletins/welcome.html.haml within layouts/application (34.4ms)
+Completed 200 OK in 257ms (Views: 256.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /facebook.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /jquery.js - 200 OK (46ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /bulletins.js - 200 OK (5ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /people.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /welcome.js - 200 OK (10ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /wanteds.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /application.js - 200 OK (19ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /welcome.css - 200 OK (4ms)
+
+
+Started GET "/assets/welcome.png" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /welcome.png - 200 OK (3ms)
+
+
+Started GET "/assets/leaf_enter.png" for 127.0.0.1 at 2013-01-06 14:31:23 -0800
+Served asset /leaf_enter.png - 200 OK (7ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Processing by BulletinsController#index as HTML
+  [1m[36mBulletin Load (0.1ms)[0m  [1mSELECT "bulletins".* FROM "bulletins" [0m
+Compiled home.css  (77ms)  (pid 2218)
+  Rendered bulletins/index.html.haml within layouts/application (123.3ms)
+Completed 200 OK in 311ms (Views: 132.7ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /bulletins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_entersys.png" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /btn_entersys.png - 200 OK (17ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /banner.png - 200 OK (2ms)
+
+
+Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-06 14:31:27 -0800
+Served asset /btn_deptintro.png - 200 OK (6ms)
+
+
+Started GET "/assets/btn_newinfo.png" for 127.0.0.1 at 2013-01-06 14:31:28 -0800
+Served asset /btn_newinfo.png - 200 OK (26ms)
+
+
+Started GET "/assets/btn_eduprocess.png" for 127.0.0.1 at 2013-01-06 14:31:28 -0800
+Served asset /btn_eduprocess.png - 200 OK (18ms)
+
+
+Started GET "/assets/btn_certification.png" for 127.0.0.1 at 2013-01-06 14:31:28 -0800
+Served asset /btn_certification.png - 200 OK (104ms)
+
+
+Started GET "/assets/e-learning.png" for 127.0.0.1 at 2013-01-06 14:31:28 -0800
+Served asset /e-learning.png - 200 OK (25ms)
+
+
+Started GET "/assets/member_login.png" for 127.0.0.1 at 2013-01-06 14:31:28 -0800
+Served asset /member_login.png - 200 OK (20ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2013-01-06 14:32:42 -0800
+Processing by BulletinsController#index as HTML
+  [1m[35mBulletin Load (0.3ms)[0m  SELECT "bulletins".* FROM "bulletins" 
+ERROR: compiling _app_views_bulletins_index_html_haml__660107798_79850920 RAISED /home/ubuntu/Documents/beautyTea2/app/views/bulletins/index.html.haml:35: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/bulletins/index.html.haml:38: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _app_views_bulletins_index_html_haml__660107798_79850920(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "bulletins/index";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( stylesheet_link_tag 'home'
+));}\n<body>\n  <div id='banner'>\n    #{_hamlout.adjust_tabs(2); 
+
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to image_tag('banner.png'), bulletins_path
+));}\n  </div>\n  <h1>#{_hamlout.format_script_false_true_false_true_false_true_false((link_to 'Back to welcome page 回歡迎頁面', root_path
+));}</h1>\n  <div id='enter'>\n    <btn_enter>#{_hamlout.adjust_tabs(2); 
+_hamlout.format_script_false_true_false_true_false_true_false((link_to image_tag('btn_entersys.png'), 'courses/s11'
+));}</btn_enter>\n  </div>\n  <div id='login'>\n    <input type='phone'>\n    <btn_login>#{_hamlout.adjust_tabs(1); 
+
+_hamlout.format_script_false_true_false_true_false_true_false((link_to button_to 'login'
+));}</btn_login>\n  </div>\n</body>\n<div id='main'>\n  <label>#{
+
+_hamlout.format_script_false_true_false_true_false_true_false((link_to image_tag( 'btn_newinfo.png')
+));}</label>\n  <label>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to image_tag( 'btn_deptintro.png')
+));}</label>\n  <label>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to image_tag( 'btn_eduprocess.png')
+));}</label>\n  <label>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to image_tag( 'btn_certification.png')
+));}</label>\n  <table id='bulletins'>\n    <tbody>\n", 2, false);
+
+ @bulletins.each do |bulletin|
+_hamlout.push_text("      <thead>\n        <tr>\n          <th>公告訊息</th>\n          <th>活動日期</th>\n          <th>截止報名</th>\n        </tr>\n      </thead>\n      <tbody>\n", 1, false);
+
+
+
+
+
+ @bulletins.each do |bulletin|
+_hamlout.push_text("        <tr>\n          <td>#{_hamlout.adjust_tabs(2); 
+_hamlout.format_script_false_true_false_true_false_true_false((bulletin.msg
+));}</td>\n          <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((bulletin.date
+));}</td>\n          <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((bulletin.deadline
+));}</td>\n          <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to 'Show 詳情', bulletin
+));}</td>\n          <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to 'Destroy 刪除', bulletin, method: :delete, data: { confirm: 'Are you sure? 確定要刪除嗎？' }
+));}</td>\n        </tr>\n", -1, false);end
+_hamlout.push_text("      </tbody>\n    </tbody>\n    #{_hamlout.adjust_tabs(-2); _hamlout.format_script_false_false_false_true_false_true_false((link_to 'New Bulletin 新增公告', new_bulletin_path
+));}\n  </table>\n</div>\n", -2, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/usr/local/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/home/ubuntu/Documents/beautyTea2/app/controllers/bulletins_controller.rb:7:in `index'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__488055191__process_action__538387956__callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/usr/local/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/usr/local/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/omniauth-1.1.1/lib/omniauth/strategy.rb:177:in `call!'
+/usr/local/lib/ruby/gems/1.9.1/gems/omniauth-1.1.1/lib/omniauth/strategy.rb:157:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/omniauth-1.1.1/lib/omniauth/builder.rb:48:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/rack.rb:54:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__70348490__call__282484276__callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/usr/local/lib/ruby/gems/1.9.1/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+  Rendered bulletins/index.html.haml within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (/home/ubuntu/Documents/beautyTea2/app/views/bulletins/index.html.haml:35: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/bulletins/index.html.haml:38: syntax error, unexpected $end, expecting keyword_end):
+    32:             %td= link_to 'Destroy 刪除', bulletin, method: :delete, data: { confirm: 'Are you sure? 確定要刪除嗎？' } 
+    33:     =link_to 'New Bulletin 新增公告', new_bulletin_path
+  app/controllers/bulletins_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Processing by BulletinsController#index as HTML
+  [1m[36mBulletin Load (6.4ms)[0m  [1mSELECT "bulletins".* FROM "bulletins" [0m
+  Rendered bulletins/index.html.haml within layouts/application (21.1ms)
+Completed 200 OK in 66ms (Views: 57.7ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /bulletins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /btn_deptintro.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_entersys.png" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /btn_entersys.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_newinfo.png" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /btn_newinfo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_certification.png" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /btn_certification.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_eduprocess.png" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /btn_eduprocess.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/e-learning.png" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /e-learning.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/member_login.png" for 127.0.0.1 at 2013-01-06 14:33:40 -0800
+Served asset /member_login.png - 304 Not Modified (0ms)

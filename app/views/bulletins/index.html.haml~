@@ -4,17 +4,19 @@
     = link_to image_tag('banner.png'), bulletins_path
   %h1=link_to 'Back to welcome page 回歡迎頁面', root_path    
   %div#enter
-    %btn_enter= link_to image_tag('btn_entersys.png'), 'course/s11'
+    %btn_enter= link_to image_tag('btn_entersys.png'), 'courses/s11'
   %div#login
     %input{:type => "phone"}
     %btn_login= link_to button_to 'login'
 
-  %div#main
-    %label= link_to image_tag( 'btn_newinfo.png')
-    %label= link_to image_tag( 'btn_deptintro.png')
-    %label= link_to image_tag( 'btn_eduprocess.png')
-    %label= link_to image_tag( 'btn_certification.png')
-    %table#bulletins
+%div#main
+  %label= link_to image_tag( 'btn_newinfo.png')
+  %label= link_to image_tag( 'btn_deptintro.png')
+  %label= link_to image_tag( 'btn_eduprocess.png')
+  %label= link_to image_tag( 'btn_certification.png')
+  %table#bulletins  
+    %tbody
+      - @bulletins.each do |bulletin|
       %thead
         %tr
           %th 公告訊息
@@ -29,5 +31,3 @@
             %td= link_to 'Show 詳情', bulletin
             %td= link_to 'Destroy 刪除', bulletin, method: :delete, data: { confirm: 'Are you sure? 確定要刪除嗎？' } 
     =link_to 'New Bulletin 新增公告', new_bulletin_path
-
-

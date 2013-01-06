@@ -36,10 +36,16 @@ div#enter btn_enter {
 }
 
 div#login {
+<<<<<<< HEAD
   background-image:url(member_login.png);
   background-repeat:no-repeat;
   width: 300px;
   height:150px;
+=======
+  
+  width: 20%;
+  height: 30%;
+>>>>>>> f3e5733103cef53303e413b6c647d78043ef4369
   position: absolute;
   top:90%;
   left:2%;
@@ -52,7 +58,7 @@ div#login input {
 div#login btn_login {
   position: absolute;
   top:60%;
-  right:5%;
+  right:10px;
   left:65%;
   bottom:30px;
 }
@@ -67,11 +73,14 @@ div#main {
 }
 table#bulletins {
   background: white;
-  width: 630px;
-  height: 470px;
+  padding: 4px;
+  text-align: left;
 }
 table#bulletins th {
   text-align: left;
+  padding: 4px;
+  border: 2px solid white;
+  
 }
 
 
