@@ -1,8 +1,11 @@
 class User < ActiveRecord::Base
-  attr_accessor :mode, :name, :phone, :phone_confirmation
+  attr_accessible :mode, :name, :phone, :phone_confirmation
 
+  attr_accessor :phone
 
+  validates_confirmation_of :phone
   validates_presence_of :phone, :on => :create
   validates_presence_of :name
+  validates_uniqueness_of :name
 
 end

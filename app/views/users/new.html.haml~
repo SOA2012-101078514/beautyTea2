@@ -23,9 +23,9 @@
     = f.text_field :phone
 
     %br/
-    %br/
+    %br/    
     %strong
-      = f.label :"Confirm Your Phone"
+      = f.label :"Confirm Phone Number"
     %br/
     = f.text_field :phone_confirmation
 

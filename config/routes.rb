@@ -1,4 +1,6 @@
 Tea::Application.routes.draw do  
+  get "login" => "sessions#new", :as => "log_in"
+
   get "sign_up" => "users#new", :as => "sign_up"
 
   # match "*path" => "pages#404"
@@ -6,6 +8,7 @@ Tea::Application.routes.draw do
   #root :to => 'bulletins#welcome'
   resources :bulletins
   resources :users
+  resources :sessions
   get "bulletins" => "bulletins"
 
 

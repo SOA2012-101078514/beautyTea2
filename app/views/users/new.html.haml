@@ -3,9 +3,7 @@
 = form_for @user do |f|
   - if @user.errors.any?
     #error_messages
-      %h2 
-        = pluralize(@user.errors.count, "error")
-        Form is invalid:
+      %h2 Form is invalid:
       %ul
         - @user.errors.full_messages.each do |msg|
           %li= msg
@@ -21,6 +19,13 @@
       = f.label :"Phone Number"
     %br/
     = f.text_field :phone
+
+    %br/
+    %br/    
+    %strong
+      = f.label :"Confirm Phone Number"
+    %br/
+    = f.text_field :phone_confirmation
 
     %br/
   .confirm_button
