@@ -1,5 +1,5 @@
 Tea::Application.routes.draw do  
-  get "login" => "sessions#new", :as => "log_in
+  get "login" => "sessions#new", :as => "log_in"
 
   get "sign_up" => "users#new", :as => "sign_up"
 

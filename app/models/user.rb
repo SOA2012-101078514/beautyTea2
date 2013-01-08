@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
   attr_accessible :mode, :name, :phone, :phone_confirmation
 
-  attr_accessor :phone
+  #attr_accessor :phone
 
   validates_confirmation_of :phone
   validates_presence_of :phone, :on => :create
