@@ -81,6 +81,10 @@ class BulletinsController < ApplicationController
     end
   end
   def check_login
-    
+    if current_user
+      redirect_to  'courses/s11'
+    else
+      redirect_to log_in_path
+    end
   end
 end
