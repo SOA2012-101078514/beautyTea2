@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     user = User.authenticate(params[:name], params[:phone])
     if user
       session[:user_id] = user.id
-      redirect_to bulletins_path
+      redirect_to bulletins_path 
     else
       flash.now.alert = "Invalid name or phone number"
       render "new"
