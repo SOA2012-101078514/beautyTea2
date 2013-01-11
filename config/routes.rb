@@ -3,10 +3,10 @@ Tea::Application.routes.draw do
   get "log_out" => "sessions#destroy", :as => "log_out"
   get "sign_up" => "users#new", :as => "sign_up"
 
-  get "bulletins" => "bulletins"
+  #get "bulletins" => "bulletins"
   # match "*path" => "pages#404"
-  root :to => "users#new"
-  #root :to => 'bulletins#welcome'
+  #root :to => "users#new"
+  root :to => 'bulletins#welcome'
   resources :bulletins
   resources :users
   resources :sessions
