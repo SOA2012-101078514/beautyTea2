@@ -1,14 +1,16 @@
 Tea::Application.routes.draw do  
-  resources :bulletins
+  get "log_in" => "sessions#new", :as => "log_in"
+  get "log_out" => "sessions#destroy", :as => "log_out"
+  get "sign_up" => "users#new", :as => "sign_up"
 
-  match 'auth/:provider/callback', to: 'sessions#create'
-  match 'auth/failure', to: redirect('/')
-  match 'signout', to: 'sessions#destroy', as: 'signout' 
-
+  #get "bulletins" => "bulletins"
   # match "*path" => "pages#404"
-
+  #root :to => "users#new"
   root :to => 'bulletins#welcome'
   resources :bulletins
+  resources :users
+  resources :sessions
+
   #resources :courses
 
   get "bulletins" => "bulletins"
@@ -27,6 +29,10 @@ Tea::Application.routes.draw do
   get "courses/s37" => "courses#s37"
   get "courses/s4" => "courses#s4"
  
+
+
+  
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

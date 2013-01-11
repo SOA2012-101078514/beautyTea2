@@ -1,4 +1,5 @@
 = stylesheet_link_tag 'home'
+
 %body
   %div#banner
     = link_to image_tag('banner.png'), bulletins_path
@@ -7,7 +8,8 @@
     %btn_enter= link_to image_tag('btn_entersys.png'), 'courses/s11'
   %div#login
     %input{:type => "phone"}
-    %btn_login= link_to button_to 'login'
+    %btn_login= link_to button_to('login'), sign_up_path
+
 
 %div#main
   %label= link_to image_tag( 'btn_newinfo.png')

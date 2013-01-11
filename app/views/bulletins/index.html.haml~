@@ -1,4 +1,5 @@
 = stylesheet_link_tag 'home'
+
 %body
   %div#banner
     = link_to image_tag('banner.png'), bulletins_path
@@ -7,21 +8,20 @@
     %btn_enter= link_to image_tag('btn_entersys.png'), 'courses/s11'
   %div#login
     %input{:type => "phone"}
-    %btn_login= link_to button_to 'login'
+    %btn_login= link_to button_to('login'), log_in_path
+
 
 %div#main
   %label= link_to image_tag( 'btn_newinfo.png')
   %label= link_to image_tag( 'btn_deptintro.png')
   %label= link_to image_tag( 'btn_eduprocess.png')
   %label= link_to image_tag( 'btn_certification.png')
-  %table#bulletins  
-    %tbody
-      - @bulletins.each do |bulletin|
-      %thead
-        %tr
-          %th 公告訊息
-          %th 活動日期
-          %th 截止報名     
+  %table#bulletins
+    %thead
+      %tr
+        %th 公告訊息
+        %th 活動日期
+        %th 截止報名
       %tbody
         - @bulletins.each do |bulletin|
           %tr

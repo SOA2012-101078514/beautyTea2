@@ -80,4 +80,7 @@ class BulletinsController < ApplicationController
       format.json { head :no_content }
     end
   end
+  def check_login
+    
+  end
 end
