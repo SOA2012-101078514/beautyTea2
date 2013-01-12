@@ -21,12 +21,11 @@
 
 %div#main
   %label= link_to image_tag('btn_newinfo.png'), bulletins_path
-  %label= link_to image_tag('btn_deptintro.png')
+  %label= link_to image_tag('btn_deptintro.png'), 'about'
   %label= link_to image_tag('btn_eduprocess.png')
   %label= link_to image_tag('btn_certification.png')
   %div#about
-    %br 「如火如『茶』」
+    %br 東方美人茶永續經營中心之訓練期為期兩天，共分為兩個部分，一為採茶知識課程，第二部分為採茶操作訓練。第一部分旨在教育東方美人茶的知識，及採茶原則。第二部分我們讓學員實際到示範茶園操作，認識東方美人茶，並訓練其採茶精準度及速度。
     %br=image_tag('team.png')
-    %br我們是由五個清大學生組成的服務創新團隊，旨在創建對於峨眉茶業有所幫助的系統，故自名為「如火如『茶』」。
-    %br鑒於採茶人力的不足，我們希望透過一套教學檢定系統，強化新進採茶工的技術，並加速他們成為熟練的採揀東方美人茶工。因為東方美人茶芽笋嫩幼，不易採集，所以透過專業的訓練與公正的檢定，定能為東方美人茶帶來新的契機。
-    %br如果你對我們的服務有興趣，我們很樂意與你分享，歡迎與我們聯繫！
+    %br第一天：東方美人茶知識課程、採茶技巧教學
+    %br第二天：採茶技巧練習、總驗收
