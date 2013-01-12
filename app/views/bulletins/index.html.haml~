@@ -9,7 +9,7 @@
     %label=link_to 'Việt Nam'
     %br=link_to 'Back to welcome page 回歡迎頁面', root_path    
   %div#enter
-    %btn_enter= link_to image_tag('btn_entersys.png'), check_path
+    %btn_enter= link_to image_tag('btn_entersys.png'), "bulletins#check_login"
   -# %div#login
     -# %input{:type => "phone"}
     -# %btn_login= link_to button_to('login'), sign_up_path
@@ -19,6 +19,7 @@
     - if current_user
       %strong Welcome, 
       %strong= current_user.name 
+      |
       = link_to "Log out", log_out_path 
     - else
       = link_to "Log in", log_in_path
@@ -42,6 +43,4 @@
             %td= bulletin.msg
             %td= bulletin.date
             %td= bulletin.deadline
-            %td= link_to 'Show 詳情', bulletin
-            %td= link_to 'Destroy 刪除', bulletin, method: :delete, data: { confirm: 'Are you sure? 確定要刪除嗎？' } 
-    =link_to 'New Bulletin 新增公告', new_bulletin_path
+

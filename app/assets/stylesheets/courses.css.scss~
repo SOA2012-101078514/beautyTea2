@@ -3,10 +3,16 @@ html, body {
   background-color:#8cc63f;
 }
 
+div#image{
+  position:absolute;
+  left: 50%;
+
+  margin-left:-500px;
+}
 div#next {
   position:absolute;
-  top:60%;
-  left:70%;
-  
+  right: 5%;
+  top:30%;
+
 }
 

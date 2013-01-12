@@ -20,7 +20,7 @@ Tea::Application.routes.draw do
   resources :users
   resources :sessions
 
-  #resources :courses
+  resources :courses
 
   get "bulletins" => "bulletins"
   get "courses/s11" => "courses#s11"
@@ -39,6 +39,7 @@ Tea::Application.routes.draw do
   get "courses/s4" => "courses#s4"
   get "introduction/about" => "introduction#about"
   get "introduction/edu" => "introduction#edu"
+  get "introduction/pass" => "introduction#pass"
  
 
 
