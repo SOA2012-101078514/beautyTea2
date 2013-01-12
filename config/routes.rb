@@ -37,6 +37,7 @@ Tea::Application.routes.draw do
   get "courses/s36" => "courses#s36"
   get "courses/s37" => "courses#s37"
   get "courses/s4" => "courses#s4"
+  get "introduction/about" => "introduction#about"
  
 
 

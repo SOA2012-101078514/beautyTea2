@@ -1,4 +1,4 @@
-= stylesheet_link_tag 'application'
+= stylesheet_link_tag 'index'
 
 %body
   %div#banner
@@ -26,8 +26,8 @@
 
 
 %div#main
-  %label= link_to image_tag( 'btn_newinfo.png'), bulletins_path
-  %label= link_to image_tag( 'btn_deptintro.png'), 'introduction/about'
+  %label= link_to image_tag( 'btn_newinfo.png')
+  %label= link_to image_tag( 'btn_deptintro.png')
   %label= link_to image_tag( 'btn_eduprocess.png')
   %label= link_to image_tag( 'btn_certification.png')
   %table#bulletins

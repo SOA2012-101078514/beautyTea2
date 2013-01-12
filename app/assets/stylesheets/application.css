@@ -16,3 +16,83 @@ html, body {
   padding: 4px;
   border: 2px solid red;
 }
+
+html, body {  
+  margin:0 auto;
+  background-color:#8cc63f;
+  background-repeat:no-repeat;
+  color: DarkSlateGrey;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 10pt;
+}
+
+h1 {
+ font-size:8pt;
+ text-align:right;
+  height:20px;
+}
+div#status {
+  text-align:right;
+  height:8px;
+}
+div#banner {
+  height: 25%;
+}
+div#enter {
+  width: 300px;
+  height: 350px;
+  background-image:url(e-learning.png);
+  background-repeat:no-repeat;
+  position: absolute;
+  top:180px;
+}
+div#enter btn_enter {
+  position: absolute;
+  top:220px;
+  left:30px;
+  right:10%;
+  bottom:15%;
+}
+
+div#login {
+  background-image:url(member_login.png);
+  background-repeat:no-repeat;
+  width: 300px;
+  height:150px;
+  width: 250px;
+  position: absolute;
+  top:510px;
+  left:50px;
+}
+div#login input {
+  position: absolute;
+  top:40%;
+  left:2%;
+}
+div#login btn_login {
+  position: absolute;
+  top:60%;
+  right:10px;
+  left:65%;
+}
+
+div#main {
+  margin-left: 300px;
+  position: absolute;
+  margin-top:17px;
+  background: white;
+  width: 634px;
+  height: 300px;
+}
+table#bulletins {
+  background: white;
+  padding: 4px;
+  text-align: left;
+}
+table#bulletins th {
+  text-align: left;
+  padding: 4px;
+  border: 2px solid white;  
+}
+
+
