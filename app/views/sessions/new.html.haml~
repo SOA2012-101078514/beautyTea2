@@ -1,18 +1,24 @@
-%h1 Login
+= stylesheet_link_tag 'account'
+%body
+  %div#banner
+    = link_to image_tag('banner.png'), bulletins_path
+  %div#main
+  %h1 Login
 
-=link_to "Create an Account", sign_up_path
-%br/
-
-= form_tag sessions_path do
-  = label_tag :Name
+  %div#inputs
+  =link_to "Create an Account", sign_up_path
   %br/
-  = text_field_tag :name, params[:name]
+
+  = form_tag sessions_path do
+    = label_tag :Name
+    %br/
+    = text_field_tag :name, params[:name]
   
-  %br/
-  %br/
-  = label_tag :Phone
-  %br/
-  = text_field_tag :phone, params[:phone] 
+    %br/
+    %br/
+    = label_tag :Phone
+    %br/
+    = text_field_tag :phone, params[:phone] 
 
-  %br/
-  = submit_tag
+    %br/
+    = submit_tag

@@ -22,9 +22,9 @@
 %div#main
   %label= link_to image_tag('btn_newinfo.png'), bulletins_path
   %label= link_to image_tag('btn_deptintro.png'), 'about'
-  %label= link_to image_tag('btn_eduprocess.png')
-  %label= link_to image_tag('btn_certification.png'), 'pass'
-  %div#about
+  %label= link_to image_tag('btn_eduprocess.png'), 'edu'
+  %label= link_to image_tag('btn_certification.png')
+  %div#pass
     %br 東方美人茶永續經營中心之訓練期為期兩天，共分為兩個部分，一為採茶知識課程，第二部分為採茶操作訓練。第一部分旨在教育東方美人茶的知識，及採茶原則。第二部分我們讓學員實際到示範茶園操作，認識東方美人茶，並訓練其採茶精準度及速度。
     %br=image_tag('edu.png')
     %br第一天：東方美人茶知識課程、採茶技巧教學
