@@ -1,4 +1,12 @@
 Tea::Application.routes.draw do  
+  get "certification/index"
+
+  get "education/index"
+
+  get "about/index"
+
+  get "main/index"
+
   get "log_in" => "sessions#new", :as => "log_in"
   get "log_out" => "sessions#destroy", :as => "log_out"
   get "sign_up" => "users#new", :as => "sign_up"
