@@ -3,9 +3,7 @@
 = form_for @user do |f|
   - if @user.errors.any?
     #error_messages
-      %h2 
-        = pluralize(@user.errors.count, "error")
-        Form is invalid:
+      %h2 Form is invalid:
       %ul
         - @user.errors.full_messages.each do |msg|
           %li= msg

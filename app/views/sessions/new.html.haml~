@@ -1,5 +1,8 @@
 %h1 Login
 
+=link_to "Create an Account", sign_up_path
+%br/
+
 = form_tag sessions_path do
   = label_tag :Name
   %br/
