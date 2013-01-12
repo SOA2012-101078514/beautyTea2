@@ -36,16 +36,12 @@ div#enter btn_enter {
 }
 
 div#login {
-<<<<<<< HEAD
   background-image:url(member_login.png);
   background-repeat:no-repeat;
   width: 300px;
   height:150px;
-=======
-  
   width: 20%;
   height: 30%;
->>>>>>> f3e5733103cef53303e413b6c647d78043ef4369
   position: absolute;
   top:90%;
   left:2%;
