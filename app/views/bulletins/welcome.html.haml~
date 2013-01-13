@@ -3,9 +3,8 @@
 
 %div#image
   =image_tag('welcome.png')
-
-%div#enter
-  = link_to image_tag('leaf_enter.png'), bulletins_path
+  %div#enter
+    = link_to image_tag('leaf_enter.png'), bulletins_path
 
 
 

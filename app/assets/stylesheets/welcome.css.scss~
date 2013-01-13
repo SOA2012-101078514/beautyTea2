@@ -9,7 +9,7 @@ html, body {
 }
 
 div#image {
-
+  position: absolute;
 }
 
 div#enter {
