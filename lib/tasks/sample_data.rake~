@@ -1,0 +1,7 @@
+namespace :db do
+  desc "Fill database with sample data"
+  task populate: :environment do
+    admin = User.create!(name: "Andy Phil", phone:"0988", mode:"ad", pass_course:false)
+    admin.toggle!(:admin)
+  end
+end
