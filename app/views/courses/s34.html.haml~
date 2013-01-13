@@ -1,7 +1,7 @@
 = stylesheet_link_tag 'courses'
 
 %div#image
-  =image_tag('s3-4.png')
+  =link_to image_tag('s3-4.png'), 's34-1'
 
 %div#next
-  = link_to image_tag('next.png'), 's35'
+  = link_to image_tag('next.png'), 's34-1'

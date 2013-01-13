@@ -33027,3 +33027,581 @@ Served asset /courses.css - 304 Not Modified (0ms)
 
 Started GET "/assets/34-1.png" for 127.0.0.1 at 2013-01-12 20:01:28 -0800
 Served asset /34-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-1" for 127.0.0.1 at 2013-01-12 20:42:20 -0800
+Processing by CoursesController#s34-1 as HTML
+  Rendered courses/s34-1.html.haml (2.2ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:42:20 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-1.png" for 127.0.0.1 at 2013-01-12 20:42:20 -0800
+Served asset /34-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/34-2" for 127.0.0.1 at 2013-01-12 20:42:22 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/34-2"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/courses/34-2" for 127.0.0.1 at 2013-01-12 20:43:41 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/34-2"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/courses/34-2" for 127.0.0.1 at 2013-01-12 20:43:50 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/34-2"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/courses/s34" for 127.0.0.1 at 2013-01-12 20:43:54 -0800
+Processing by CoursesController#s34 as HTML
+  Rendered courses/s34.html.haml (0.9ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:43:54 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-4.png" for 127.0.0.1 at 2013-01-12 20:43:54 -0800
+Served asset /s3-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 20:43:54 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34" for 127.0.0.1 at 2013-01-12 20:45:12 -0800
+Processing by CoursesController#s34 as HTML
+  Rendered courses/s34.html.haml (3.8ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:12 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 20:45:12 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-4.png" for 127.0.0.1 at 2013-01-12 20:45:12 -0800
+Served asset /s3-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34" for 127.0.0.1 at 2013-01-12 20:45:15 -0800
+Processing by CoursesController#s34 as HTML
+  Rendered courses/s34.html.haml (2.2ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:15 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-4.png" for 127.0.0.1 at 2013-01-12 20:45:15 -0800
+Served asset /s3-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 20:45:15 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34" for 127.0.0.1 at 2013-01-12 20:45:16 -0800
+Processing by CoursesController#s34 as HTML
+  Rendered courses/s34.html.haml (0.9ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:16 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-4.png" for 127.0.0.1 at 2013-01-12 20:45:16 -0800
+Served asset /s3-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 20:45:16 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34" for 127.0.0.1 at 2013-01-12 20:45:26 -0800
+Processing by CoursesController#s34 as HTML
+  Rendered courses/s34.html.haml (2.6ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:26 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-4.png" for 127.0.0.1 at 2013-01-12 20:45:26 -0800
+Served asset /s3-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-1" for 127.0.0.1 at 2013-01-12 20:45:28 -0800
+Processing by CoursesController#s34-1 as HTML
+  Rendered courses/s34-1.html.haml (1.9ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:28 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-1.png" for 127.0.0.1 at 2013-01-12 20:45:28 -0800
+Served asset /34-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-2" for 127.0.0.1 at 2013-01-12 20:45:30 -0800
+Processing by CoursesController#s34-2 as HTML
+  Rendered courses/s34-2.html.haml (1.6ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:30 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-2.png" for 127.0.0.1 at 2013-01-12 20:45:30 -0800
+Served asset /34-2.png - 200 OK (10ms)
+
+
+Started GET "/courses/s34-3" for 127.0.0.1 at 2013-01-12 20:45:31 -0800
+Processing by CoursesController#s34-3 as HTML
+  Rendered courses/s34-3.html.haml (2.2ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:31 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-3.png" for 127.0.0.1 at 2013-01-12 20:45:31 -0800
+Served asset /34-3.png - 200 OK (16ms)
+
+
+Started GET "/courses/s34-4" for 127.0.0.1 at 2013-01-12 20:45:32 -0800
+Processing by CoursesController#s34-4 as HTML
+  Rendered courses/s34-4.html.haml (7.2ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:32 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-4.png" for 127.0.0.1 at 2013-01-12 20:45:32 -0800
+Served asset /34-4.png - 200 OK (20ms)
+
+
+Started GET "/courses/s34-5" for 127.0.0.1 at 2013-01-12 20:45:33 -0800
+Processing by CoursesController#s34-5 as HTML
+  Rendered courses/s34-5.html.haml (2.7ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:33 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-5.png" for 127.0.0.1 at 2013-01-12 20:45:33 -0800
+Served asset /34-5.png - 200 OK (9ms)
+
+
+Started GET "/courses/s34-6" for 127.0.0.1 at 2013-01-12 20:45:34 -0800
+Processing by CoursesController#s34-6 as HTML
+  Rendered courses/s34-6.html.haml (3.1ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:34 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-6.png" for 127.0.0.1 at 2013-01-12 20:45:34 -0800
+Served asset /34-6.png - 200 OK (30ms)
+
+
+Started GET "/courses/s34-7" for 127.0.0.1 at 2013-01-12 20:45:35 -0800
+Processing by CoursesController#s34-7 as HTML
+  Rendered courses/s34-7.html.haml (4.9ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:35 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-7.png" for 127.0.0.1 at 2013-01-12 20:45:35 -0800
+Served asset /34-7.png - 200 OK (18ms)
+
+
+Started GET "/courses/s34-8" for 127.0.0.1 at 2013-01-12 20:45:36 -0800
+Processing by CoursesController#s34-8 as HTML
+  Rendered courses/s34-8.html.haml (14.1ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:36 -0800
+Served asset /courses.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/34-8.png" for 127.0.0.1 at 2013-01-12 20:45:36 -0800
+Served asset /34-8.png - 200 OK (26ms)
+
+
+Started GET "/courses/s34-9" for 127.0.0.1 at 2013-01-12 20:45:37 -0800
+Processing by CoursesController#s34-9 as HTML
+  Rendered courses/s34-9.html.haml (13.5ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:37 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-9.png" for 127.0.0.1 at 2013-01-12 20:45:37 -0800
+Served asset /34-9.png - 200 OK (8ms)
+
+
+Started GET "/courses/s34-10" for 127.0.0.1 at 2013-01-12 20:45:37 -0800
+Processing by CoursesController#s34-10 as HTML
+  Rendered courses/s34-10.html.haml (10.6ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:37 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-10.png" for 127.0.0.1 at 2013-01-12 20:45:37 -0800
+Served asset /34-10.png - 200 OK (20ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 20:45:37 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s36" for 127.0.0.1 at 2013-01-12 20:45:54 -0800
+Processing by CoursesController#s36 as HTML
+  Rendered courses/s36.html.haml (2.4ms)
+Completed 200 OK in 18ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:45:54 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 20:45:54 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 20:46:03 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (3.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 20:46:03 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 20:46:03 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 20:46:03 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 20:47:05 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (2.3ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:06 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 20:47:06 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32-1" for 127.0.0.1 at 2013-01-12 20:47:07 -0800
+Processing by CoursesController#s32-1 as HTML
+  Rendered courses/s32-1.html.haml (3.7ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:07 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-1.png" for 127.0.0.1 at 2013-01-12 20:47:07 -0800
+Served asset /32-1.png - 304 Not Modified (5ms)
+
+
+Started GET "/courses/s32-2" for 127.0.0.1 at 2013-01-12 20:47:08 -0800
+Processing by CoursesController#s32-2 as HTML
+  Rendered courses/s32-2.html.haml (0.9ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:08 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-2.png" for 127.0.0.1 at 2013-01-12 20:47:08 -0800
+Served asset /32-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32-3" for 127.0.0.1 at 2013-01-12 20:47:09 -0800
+Processing by CoursesController#s32-3 as HTML
+  Rendered courses/s32-3.html.haml (0.8ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:09 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-3.png" for 127.0.0.1 at 2013-01-12 20:47:09 -0800
+Served asset /32-3.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32-4" for 127.0.0.1 at 2013-01-12 20:47:09 -0800
+Processing by CoursesController#s32-4 as HTML
+  Rendered courses/s32-4.html.haml (0.9ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:09 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-4.png" for 127.0.0.1 at 2013-01-12 20:47:09 -0800
+Served asset /32-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32-5" for 127.0.0.1 at 2013-01-12 20:47:10 -0800
+Processing by CoursesController#s32-5 as HTML
+  Rendered courses/s32-5.html.haml (13.8ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:10 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-5.png" for 127.0.0.1 at 2013-01-12 20:47:10 -0800
+Served asset /32-5.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 20:47:10 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34" for 127.0.0.1 at 2013-01-12 20:47:12 -0800
+Processing by CoursesController#s34 as HTML
+  Rendered courses/s34.html.haml (10.7ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:12 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-4.png" for 127.0.0.1 at 2013-01-12 20:47:12 -0800
+Served asset /s3-4.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-1" for 127.0.0.1 at 2013-01-12 20:47:14 -0800
+Processing by CoursesController#s34-1 as HTML
+  Rendered courses/s34-1.html.haml (0.6ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:14 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-1.png" for 127.0.0.1 at 2013-01-12 20:47:14 -0800
+Served asset /34-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-2" for 127.0.0.1 at 2013-01-12 20:47:14 -0800
+Processing by CoursesController#s34-2 as HTML
+  Rendered courses/s34-2.html.haml (0.5ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:14 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-3" for 127.0.0.1 at 2013-01-12 20:47:15 -0800
+Processing by CoursesController#s34-3 as HTML
+  Rendered courses/s34-3.html.haml (0.9ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:15 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-4" for 127.0.0.1 at 2013-01-12 20:47:15 -0800
+Processing by CoursesController#s34-4 as HTML
+  Rendered courses/s34-4.html.haml (10.1ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:15 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-5" for 127.0.0.1 at 2013-01-12 20:47:16 -0800
+Processing by CoursesController#s34-5 as HTML
+  Rendered courses/s34-5.html.haml (1.5ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:16 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-6" for 127.0.0.1 at 2013-01-12 20:47:16 -0800
+Processing by CoursesController#s34-6 as HTML
+  Rendered courses/s34-6.html.haml (0.7ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:16 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-7" for 127.0.0.1 at 2013-01-12 20:47:16 -0800
+Processing by CoursesController#s34-7 as HTML
+  Rendered courses/s34-7.html.haml (1.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:16 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-8" for 127.0.0.1 at 2013-01-12 20:47:17 -0800
+Processing by CoursesController#s34-8 as HTML
+  Rendered courses/s34-8.html.haml (1.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:17 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-9" for 127.0.0.1 at 2013-01-12 20:47:17 -0800
+Processing by CoursesController#s34-9 as HTML
+  Rendered courses/s34-9.html.haml (1.1ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:17 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-10" for 127.0.0.1 at 2013-01-12 20:47:18 -0800
+Processing by CoursesController#s34-10 as HTML
+  Rendered courses/s34-10.html.haml (0.9ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:18 -0800
+Served asset /courses.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 20:47:18 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s36" for 127.0.0.1 at 2013-01-12 20:47:20 -0800
+Processing by CoursesController#s36 as HTML
+  Rendered courses/s36.html.haml (1.1ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:47:20 -0800
+Served asset /courses.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 20:47:20 -0800
+Served asset /next.png - 304 Not Modified (0ms)

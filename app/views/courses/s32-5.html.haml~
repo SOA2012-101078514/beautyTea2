@@ -3,4 +3,4 @@
 
 
 %div#image
-  =link_to image_tag('32-2.png'), 's32-3'
+  =link_to image_tag('32-5.png'), 's34'
