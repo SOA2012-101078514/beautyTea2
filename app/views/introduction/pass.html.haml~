@@ -25,7 +25,7 @@
   %label= link_to image_tag('btn_eduprocess.png'), 'edu'
   %label= link_to image_tag('btn_certification.png')
   %div#pass
-    %br 東方美人茶永續經營中心之訓練期為期兩天，共分為兩個部分，一為採茶知識課程，第二部分為採茶操作訓練。第一部分旨在教育東方美人茶的知識，及採茶原則。第二部分我們讓學員實際到示範茶園操作，認識東方美人茶，並訓練其採茶精準度及速度。
-    %br=image_tag('edu.png')
-    %br第一天：東方美人茶知識課程、採茶技巧教學
-    %br第二天：採茶技巧練習、總驗收
+    %br 經過峨眉鄉農會採茶人力培訓計畫第一梯次培訓，認證合格者有：
+    %br 郭欣妹、楊涼和、林荷白、陳齡妹、周又新、陳律伶、莊青青、翁婷妹、鍾瑩瑩、賴好妹等十位學員。
+    %br =image_tag('pass.png')
+

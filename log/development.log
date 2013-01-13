@@ -35256,3 +35256,326 @@ Served asset /application.js - 304 Not Modified (2ms)
 
 Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-13 00:25:08 -0800
 Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/bulletins/admin" for 127.0.0.1 at 2013-01-13 00:39:50 -0800
+Processing by BulletinsController#show as HTML
+  Parameters: {"id"=>"admin"}
+  [1m[36mBulletin Load (0.3ms)[0m  [1mSELECT "bulletins".* FROM "bulletins" WHERE "bulletins"."id" = ? LIMIT 1[0m  [["id", "admin"]]
+Completed 500 Internal Server Error in 12ms
+
+ActiveRecord::RecordNotFound (Couldn't find Bulletin with id=admin):
+  app/controllers/bulletins_controller.rb:16:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/bulletins/admin" for 127.0.0.1 at 2013-01-13 00:57:26 -0800
+Processing by BulletinsController#show as HTML
+  Parameters: {"id"=>"admin"}
+  [1m[35mBulletin Load (0.1ms)[0m  SELECT "bulletins".* FROM "bulletins" WHERE "bulletins"."id" = ? LIMIT 1  [["id", "admin"]]
+Completed 500 Internal Server Error in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find Bulletin with id=admin):
+  app/controllers/bulletins_controller.rb:16:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Processing by BulletinsController#index as HTML
+  [1m[36mBulletin Load (0.6ms)[0m  [1mSELECT "bulletins".* FROM "bulletins" [0m
+  Rendered bulletins/index.html.haml within layouts/application (12.2ms)
+Completed 200 OK in 44ms (Views: 37.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /bulletins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/certification.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /certification.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /education.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /main.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s32.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /s32.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_entersys.png" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /btn_entersys.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_newinfo.png" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /btn_newinfo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_certification.png" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /btn_certification.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/e-learning.png" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /e-learning.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /btn_deptintro.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_eduprocess.png" for 127.0.0.1 at 2013-01-13 00:58:21 -0800
+Served asset /btn_eduprocess.png - 304 Not Modified (0ms)
+
+
+Started GET "/introduction/pass" for 127.0.0.1 at 2013-01-13 00:58:22 -0800
+Processing by IntroductionController#pass as HTML
+  Rendered introduction/pass.html.haml (5.6ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-13 00:58:22 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-13 00:58:22 -0800
+Served asset /banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_eduprocess.png" for 127.0.0.1 at 2013-01-13 00:58:22 -0800
+Served asset /btn_eduprocess.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_entersys.png" for 127.0.0.1 at 2013-01-13 00:58:22 -0800
+Served asset /btn_entersys.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-13 00:58:22 -0800
+Served asset /btn_deptintro.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_newinfo.png" for 127.0.0.1 at 2013-01-13 00:58:22 -0800
+Served asset /btn_newinfo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_certification.png" for 127.0.0.1 at 2013-01-13 00:58:22 -0800
+Served asset /btn_certification.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/e-learning.png" for 127.0.0.1 at 2013-01-13 00:58:22 -0800
+Served asset /e-learning.png - 304 Not Modified (0ms)
+
+
+Started GET "/introduction/pass" for 127.0.0.1 at 2013-01-13 00:58:45 -0800
+Processing by IntroductionController#pass as HTML
+  Rendered introduction/pass.html.haml (8.5ms)
+Completed 200 OK in 12ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-13 00:58:45 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-13 00:58:46 -0800
+Served asset /banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_entersys.png" for 127.0.0.1 at 2013-01-13 00:58:46 -0800
+Served asset /btn_entersys.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-13 00:58:46 -0800
+Served asset /btn_deptintro.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_newinfo.png" for 127.0.0.1 at 2013-01-13 00:58:46 -0800
+Served asset /btn_newinfo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_eduprocess.png" for 127.0.0.1 at 2013-01-13 00:58:46 -0800
+Served asset /btn_eduprocess.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/e-learning.png" for 127.0.0.1 at 2013-01-13 00:58:46 -0800
+Served asset /e-learning.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_certification.png" for 127.0.0.1 at 2013-01-13 00:58:46 -0800
+Served asset /btn_certification.png - 304 Not Modified (0ms)
+
+
+Started GET "/introduction/pass" for 127.0.0.1 at 2013-01-13 01:11:32 -0800
+Processing by IntroductionController#pass as HTML
+  Rendered introduction/pass.html.haml (8.2ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-13 01:11:32 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-13 01:11:32 -0800
+Served asset /banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_newinfo.png" for 127.0.0.1 at 2013-01-13 01:11:32 -0800
+Served asset /btn_newinfo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_eduprocess.png" for 127.0.0.1 at 2013-01-13 01:11:32 -0800
+Served asset /btn_eduprocess.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-13 01:11:32 -0800
+Served asset /btn_deptintro.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_entersys.png" for 127.0.0.1 at 2013-01-13 01:11:32 -0800
+Served asset /btn_entersys.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_certification.png" for 127.0.0.1 at 2013-01-13 01:11:32 -0800
+Served asset /btn_certification.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/e-learning.png" for 127.0.0.1 at 2013-01-13 01:11:32 -0800
+Served asset /e-learning.png - 304 Not Modified (0ms)
+
+
+Started GET "/introduction/pass" for 127.0.0.1 at 2013-01-13 01:11:41 -0800
+Processing by IntroductionController#pass as HTML
+  Rendered introduction/pass.html.haml (15.2ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-13 01:11:41 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_entersys.png" for 127.0.0.1 at 2013-01-13 01:11:41 -0800
+Served asset /btn_entersys.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-13 01:11:41 -0800
+Served asset /banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_newinfo.png" for 127.0.0.1 at 2013-01-13 01:11:41 -0800
+Served asset /btn_newinfo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_eduprocess.png" for 127.0.0.1 at 2013-01-13 01:11:41 -0800
+Served asset /btn_eduprocess.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-13 01:11:41 -0800
+Served asset /btn_deptintro.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_certification.png" for 127.0.0.1 at 2013-01-13 01:11:41 -0800
+Served asset /btn_certification.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/e-learning.png" for 127.0.0.1 at 2013-01-13 01:11:41 -0800
+Served asset /e-learning.png - 304 Not Modified (0ms)
+
+
+Started GET "/introduction/pass" for 127.0.0.1 at 2013-01-13 01:11:55 -0800
+Processing by IntroductionController#pass as HTML
+  Rendered introduction/pass.html.haml (7.2ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-13 01:11:55 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pass.png" for 127.0.0.1 at 2013-01-13 01:11:55 -0800
+Served asset /pass.png - 200 OK (7ms)
+
+
+Started GET "/assets/btn_entersys.png" for 127.0.0.1 at 2013-01-13 01:11:55 -0800
+Served asset /btn_entersys.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-13 01:11:55 -0800
+Served asset /banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_newinfo.png" for 127.0.0.1 at 2013-01-13 01:11:55 -0800
+Served asset /btn_newinfo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-13 01:11:55 -0800
+Served asset /btn_deptintro.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_eduprocess.png" for 127.0.0.1 at 2013-01-13 01:11:55 -0800
+Served asset /btn_eduprocess.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/e-learning.png" for 127.0.0.1 at 2013-01-13 01:11:55 -0800
+Served asset /e-learning.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_certification.png" for 127.0.0.1 at 2013-01-13 01:11:55 -0800
+Served asset /btn_certification.png - 304 Not Modified (0ms)
