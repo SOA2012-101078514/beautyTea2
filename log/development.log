@@ -31277,3 +31277,127 @@ Served asset /next.png - 304 Not Modified (0ms)
 
 Started GET "/assets/s1-2.png" for 127.0.0.1 at 2013-01-12 18:09:13 -0800
 Served asset /s1-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s12" for 127.0.0.1 at 2013-01-12 18:18:44 -0800
+Processing by CoursesController#s12 as HTML
+  Rendered courses/s12.html.haml (1.9ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:18:44 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s1-2.png" for 127.0.0.1 at 2013-01-12 18:18:44 -0800
+Served asset /s1-2.png - 200 OK (22ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:18:44 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s21" for 127.0.0.1 at 2013-01-12 18:18:47 -0800
+Processing by CoursesController#s21 as HTML
+  Rendered courses/s21.html.haml (1.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:18:47 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s2-1.png" for 127.0.0.1 at 2013-01-12 18:18:47 -0800
+Served asset /s2-1.png - 200 OK (22ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:18:47 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s22" for 127.0.0.1 at 2013-01-12 18:19:02 -0800
+Processing by CoursesController#s22 as HTML
+  Rendered courses/s22.html.haml (0.9ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:19:02 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s2-2.png" for 127.0.0.1 at 2013-01-12 18:19:02 -0800
+Served asset /s2-2.png - 200 OK (22ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:19:03 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s23" for 127.0.0.1 at 2013-01-12 18:19:05 -0800
+Processing by CoursesController#s23 as HTML
+  Rendered courses/s23.html.haml (7.7ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:19:05 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:19:05 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s24" for 127.0.0.1 at 2013-01-12 18:19:11 -0800
+Processing by CoursesController#s24 as HTML
+  Rendered courses/s24.html.haml (1.4ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:19:11 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:19:11 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s31" for 127.0.0.1 at 2013-01-12 18:19:12 -0800
+Processing by CoursesController#s31 as HTML
+  Rendered courses/s31.html.haml (1.3ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:19:12 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:19:12 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:19:24 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (0.9ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:19:24 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:19:24 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s33" for 127.0.0.1 at 2013-01-12 18:19:32 -0800
+Processing by CoursesController#s33 as HTML
+  Rendered courses/s33.html.haml (0.9ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:19:32 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:19:32 -0800
+Served asset /next.png - 304 Not Modified (0ms)
