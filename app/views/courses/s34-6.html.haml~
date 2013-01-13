@@ -1,7 +1,0 @@
-= stylesheet_link_tag 'courses'
-
-
-
-%div#image
-  =link_to image_tag('34-6.png'), '34-7'
-

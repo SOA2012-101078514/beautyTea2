@@ -73,7 +73,20 @@ table#bulletins {
 table#bulletins th {
   text-align: left;
   padding: 4px;
-  border: 2px solid white;  
+  border: 2px solid white; 
+  background-color: wheat;
+  
 }
+table#bulletins td {
+  padding: 4px;
+  max-width: 250px;
+}
+
+div#info{
+  padding: 10px;
+}
+
+
+
 
 

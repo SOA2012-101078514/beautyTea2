@@ -1,4 +1,5 @@
 = stylesheet_link_tag 'application'
+= stylesheet_link_tag 'home'
 
 %body
   %div#banner
@@ -14,7 +15,7 @@
     -# %input{:type => "phone"}
     -# %btn_login= link_to button_to('login'), sign_up_path
 
-  #user_nav
+  
   %div#status
     - if current_user
       %strong Welcome, 
@@ -43,4 +44,13 @@
             %td= bulletin.msg
             %td= bulletin.date
             %td= bulletin.deadline
+            %td= link_to 'Show 詳情', bulletin
+            - if current_user
+              - if current_user.admin?
+                %td= link_to 'Destroy 刪除', bulletin, method: :delete, data: { confirm: 'Are you sure? 確定要刪除嗎？' }
+  - if current_user
+    - if current_user.admin?
+      %div#info
+        =link_to 'New Bulletin 新增公告', new_bulletin_path
+
 

@@ -1,12 +1,11 @@
-
 = stylesheet_link_tag 'home'
+
 %div#banner
   = link_to image_tag('banner.png'), bulletins_path
 %h1=link_to 'Back to welcome page 回歡迎頁面', root_path     
 %div#enter
-  %b= link_to image_tag('btn_entersys.png')
-%div#login
-  %input{:type => "phone"}
+  %btn_enter= link_to image_tag('btn_entersys.png'), check_path
+
 %div#main
   %label= link_to image_tag( 'btn_newinfo.png')
   %label= link_to image_tag( 'btn_deptintro.png')
@@ -14,7 +13,9 @@
   %label= link_to image_tag( 'btn_certification.png')
 
   %h1 New 新增公告
-  = render :partial => 'form' 
+  %div#info 
+    = render :partial => 'form' 
 
-  = link_to 'Back 回前頁', bulletins_path
+  %div#info
+    = link_to 'Back 回前頁', bulletins_path
 

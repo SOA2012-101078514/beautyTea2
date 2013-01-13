@@ -84,7 +84,7 @@ class BulletinsController < ApplicationController
     if current_user
       redirect_to  courses_s11_path
     else
-      redirect_to log_in_path
+      redirect_to log_in_path 
     end
   end
 end
