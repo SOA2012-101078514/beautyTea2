@@ -3,5 +3,5 @@
 %div#image
   =image_tag('s1-1.png')
 
-%div#next
-  = link_to image_tag('next.png'), 'courses/s12'
+  %div#next
+    = link_to image_tag('next.png'), 's12'

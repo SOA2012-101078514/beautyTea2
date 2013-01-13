@@ -1,7 +1,10 @@
 = stylesheet_link_tag 'courses'
 
+%h1
+  =radio_button_tag('','')
+  =radio_button_tag('','')
 %div#image
   =image_tag('s1-2.png')
 
 %div#next
-  = link_to image_tag('next.png'), 's13'
+  = link_to image_tag('next.png'), 's21'
