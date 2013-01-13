@@ -1,4 +1,10 @@
-= stylesheet_link_tag 'courses'
-
+%body
+  %div#banner
+    = link_to image_tag('banner.png'), bulletins_path
+  %h1
+    %label=link_to '中文'
+    %label=link_to 'English'
+    %label=link_to 'Việt Nam'
+    %br=link_to 'Back to welcome page 回歡迎頁面', root_path   
 %div#image
-  =image_tag('sym.png')
+  =image_tag('smy.png')
