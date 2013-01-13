@@ -3,16 +3,17 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html, body {  
-  margin: 0;
+  margin: 0 auto;
   background-color:#8cc63f;
   background-repeat:no-repeat;
 }
 
 div#image {
   position: absolute;
+  top:0px;
 }
 
-div#enter {
+div#leaf {
   position: absolute;
   top:63%;
   left:44%;

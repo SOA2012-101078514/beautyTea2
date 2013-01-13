@@ -3,13 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html, body {  
-  margin: 0;
+  margin: 0 auto;
   background-color:#8cc63f;
   background-repeat:no-repeat;
 }
 
 div#image {
   position: absolute;
+  bottom:0px;
 }
 
 div#leaf {

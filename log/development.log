@@ -34736,3 +34736,271 @@ Served asset /banner.png - 304 Not Modified (11ms)
 
 Started GET "/assets/smy.png" for 127.0.0.1 at 2013-01-12 21:00:51 -0800
 Served asset /smy.png - 304 Not Modified (1ms)
+
+
+Started GET "/courses/s4" for 127.0.0.1 at 2013-01-12 21:02:29 -0800
+Processing by CoursesController#s4 as HTML
+  Rendered courses/s4.html.haml (3.8ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-12 21:02:29 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/smy.png" for 127.0.0.1 at 2013-01-12 21:02:29 -0800
+Served asset /smy.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-12 21:02:29 -0800
+Served asset /banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-13 00:02:41 -0800
+Connecting to database specified by database.yml
+Processing by BulletinsController#welcome as HTML
+Compiled welcome.css  (73ms)  (pid 2574)
+  Rendered bulletins/welcome.html.haml within layouts/application (188.5ms)
+Completed 200 OK in 649ms (Views: 649.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /jquery_ujs.js - 200 OK (31ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /about.js - 200 OK (6ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /bulletins.js - 200 OK (11ms)
+
+
+Started GET "/assets/certification.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /certification.js - 200 OK (5ms)
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /education.js - 200 OK (11ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /facebook.js - 200 OK (10ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /main.js - 200 OK (10ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /people.js - 200 OK (5ms)
+
+
+Started GET "/assets/s32.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /s32.js - 200 OK (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /sessions.js - 200 OK (15ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /users.js - 200 OK (15ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /wanteds.js - 200 OK (11ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /welcome.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /application.js - 200 OK (26ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /welcome.css - 200 OK (7ms)
+
+
+Started GET "/assets/welcome.png" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /welcome.png - 200 OK (25ms)
+
+
+Started GET "/assets/leaf_enter.png" for 127.0.0.1 at 2013-01-13 00:02:43 -0800
+Served asset /leaf_enter.png - 200 OK (19ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-13 00:04:20 -0800
+Processing by BulletinsController#welcome as HTML
+Compiled welcome.css  (4ms)  (pid 2574)
+  Rendered bulletins/welcome.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/certification.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /certification.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /education.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /bulletins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s32.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /s32.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /welcome.css - 200 OK (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.png" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /welcome.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leaf_enter.png" for 127.0.0.1 at 2013-01-13 00:04:21 -0800
+Served asset /leaf_enter.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Processing by BulletinsController#welcome as HTML
+Compiled welcome.css  (2ms)  (pid 2574)
+  Rendered bulletins/welcome.html.haml within layouts/application (11.2ms)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /bulletins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /education.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/certification.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /certification.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s32.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /s32.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /welcome.css - 200 OK (9ms)
+
+
+Started GET "/assets/welcome.png" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /welcome.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leaf_enter.png" for 127.0.0.1 at 2013-01-13 00:04:52 -0800
+Served asset /leaf_enter.png - 304 Not Modified (0ms)
