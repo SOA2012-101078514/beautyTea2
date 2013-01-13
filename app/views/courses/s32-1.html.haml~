@@ -1,0 +1,25 @@
+= stylesheet_link_tag 'courses'
+
+
+
+%div#image
+  =link_to image_tag('32-1.png'), 's32-2'
+
+%div#next
+  //= link_to image_tag('next.png'), 's33'
+
+
+
+
+
+%div#v1
+  //=image_tag('v.png')
+  // %script{:type => "text/javascript", :src => "javascripts/s32"}
+  // %script{:type => "text/javascript", :function changeImg(img, newimg) { img.src = "x.png";}
+  //%script{:type => "text/javascript", :src => img src='v.png' onclick="this.src='x.png'"}
+
+%div#v2
+
+%div#x1
+
+%div#x2

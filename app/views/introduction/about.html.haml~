@@ -23,7 +23,7 @@
   %label= link_to image_tag('btn_newinfo.png'), bulletins_path
   %label= link_to image_tag('btn_deptintro.png')
   %label= link_to image_tag('btn_eduprocess.png'), 'edu'
-  %label= link_to image_tag('btn_certification.png')
+  %label= link_to image_tag('btn_certification.png'), 'pass'
   %div#about
     %br 「如火如『茶』」
     %br=image_tag('team.png')

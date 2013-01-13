@@ -31401,3 +31401,1629 @@ Served asset /courses.css - 304 Not Modified (0ms)
 
 Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:19:32 -0800
 Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s33" for 127.0.0.1 at 2013-01-12 18:23:48 -0800
+Processing by CoursesController#s33 as HTML
+  Rendered courses/s33.html.haml (0.9ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:23:48 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:23:49 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:24:35 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (1.6ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:24:35 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:24:35 -0800
+Served asset /s3-2.png - 200 OK (7ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:24:35 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:26:08 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (4.3ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 18:26:08 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:26:08 -0800
+Served asset /v.png - 200 OK (10ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:26:08 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:26:08 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:26:59 -0800
+Processing by CoursesController#s32 as HTML
+Compiled s32.css  (3ms)  (pid 3913)
+  Rendered courses/s32.html.haml (19.6ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:26:59 -0800
+Served asset /s32.css - 200 OK (4ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:26:59 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:26:59 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:26:59 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:27:34 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (5.9ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Invalid CSS after "div#x2": expected "{", was ""
+  (in /home/ubuntu/Documents/beautyTea2/app/assets/stylesheets/s32.css.scss)):
+    1: = stylesheet_link_tag 's32'
+    2: 
+    3: %div#image
+    4:   =image_tag('s3-2.png')
+  app/assets/stylesheets/s32.css.scss:24
+  app/views/courses/s32.html.haml:1:in `_app_views_courses_s___html_haml___774810699__617828028'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:27:57 -0800
+Processing by CoursesController#s32 as HTML
+Compiled s32.css  (8ms)  (pid 3913)
+  Rendered courses/s32.html.haml (54.4ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:27:57 -0800
+Served asset /s32.css - 200 OK (8ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:27:57 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:27:57 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:27:57 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:28:29 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (1.4ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:28:30 -0800
+Served asset /s32.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:28:30 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:28:30 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:28:30 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:29:06 -0800
+Processing by CoursesController#s32 as HTML
+Compiled s32.css  (9ms)  (pid 3913)
+  Rendered courses/s32.html.haml (87.9ms)
+Completed 200 OK in 90ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:29:06 -0800
+Served asset /s32.css - 200 OK (18ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:29:06 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:29:06 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:29:06 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:29:26 -0800
+Processing by CoursesController#s32 as HTML
+Compiled s32.css  (5ms)  (pid 3913)
+  Rendered courses/s32.html.haml (13.7ms)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:29:26 -0800
+Served asset /s32.css - 200 OK (15ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:29:26 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:29:26 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:29:26 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:30:00 -0800
+Processing by CoursesController#s32 as HTML
+Compiled s32.css  (5ms)  (pid 3913)
+  Rendered courses/s32.html.haml (98.3ms)
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:30:00 -0800
+Served asset /s32.css - 200 OK (11ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:30:00 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:30:00 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:30:00 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:30:17 -0800
+Processing by CoursesController#s32 as HTML
+Compiled s32.css  (5ms)  (pid 3913)
+  Rendered courses/s32.html.haml (23.5ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:30:17 -0800
+Served asset /s32.css - 200 OK (2ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:30:17 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:30:17 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:30:17 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:30:36 -0800
+Processing by CoursesController#s32 as HTML
+Compiled s32.css  (4ms)  (pid 3913)
+  Rendered courses/s32.html.haml (16.3ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:30:36 -0800
+Served asset /s32.css - 200 OK (17ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:30:36 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:30:36 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:30:36 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:30:49 -0800
+Processing by CoursesController#s32 as HTML
+Compiled s32.css  (4ms)  (pid 3913)
+  Rendered courses/s32.html.haml (19.7ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:30:49 -0800
+Served asset /s32.css - 200 OK (5ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:30:49 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:30:49 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:30:49 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:36:18 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (1.1ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:36:18 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:36:18 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:36:18 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:36:18 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:38:19 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (1.2ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:38:19 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:38:19 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:38:19 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:38:19 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:46:53 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (4.8ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:46:53 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:46:53 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:46:53 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:46:53 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:46:53 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (3.8ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (1.2ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:50:09 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:10 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:50:10 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:50:10 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:50:10 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (1.6ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:50:10 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:10 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:50:10 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:50:10 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:50:10 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:10 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (1.0ms)
+Completed 200 OK in 13ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (2.1ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:12 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 18:50:44 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (3.7ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 18:50:44 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:44 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 18:50:44 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 18:50:44 -0800
+Served asset /next.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 18:50:44 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/javascripts/s32" for 127.0.0.1 at 2013-01-12 18:50:44 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/javascripts/s32"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 19:02:29 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (1.0ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (Unbalanced brackets.):
+    11: %div#v1
+    12:   =image_tag('v.png')
+    13:   // %script{:type => "text/javascript", :src => "javascripts/s32"}
+    14:   %script{:type => "text/javascript", :function changeImg(img, newimg) { img.src = "x.png";}
+    15:   
+    16: %div#v2
+    17: 
+  app/views/courses/s32.html.haml:14
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/courses/s31" for 127.0.0.1 at 2013-01-12 19:02:36 -0800
+Processing by CoursesController#s31 as HTML
+  Rendered courses/s31.html.haml (1.0ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:02:36 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:02:36 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-1.png" for 127.0.0.1 at 2013-01-12 19:02:36 -0800
+Served asset /s3-1.png - 200 OK (8ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 19:02:45 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (7.3ms)
+Completed 200 OK in 10ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 19:02:45 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 19:02:45 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:02:45 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 19:02:45 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s33" for 127.0.0.1 at 2013-01-12 19:02:46 -0800
+Processing by CoursesController#s33 as HTML
+  Rendered courses/s33.html.haml (1.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:02:46 -0800
+Served asset /courses.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:02:46 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s33" for 127.0.0.1 at 2013-01-12 19:35:11 -0800
+Processing by CoursesController#s33 as HTML
+  Rendered courses/s33.html.haml (0.9ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:35:11 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:35:11 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-3.png" for 127.0.0.1 at 2013-01-12 19:35:11 -0800
+Served asset /s3-3.png - 304 Not Modified (1ms)
+
+
+Started GET "/courses/s33" for 127.0.0.1 at 2013-01-12 19:37:37 -0800
+Processing by CoursesController#s33 as HTML
+  Rendered courses/s33.html.haml (0.8ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:37:37 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-3.png" for 127.0.0.1 at 2013-01-12 19:37:37 -0800
+Served asset /s3-3.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:37:37 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 19:37:41 -0800
+Processing by CoursesController#s32 as HTML
+ERROR: compiling _app_views_courses_s___html_haml___774810699__624394198 RAISED /home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...xt/javascript", :src => img src='v.png' onclick="this.src='x...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected tIDENTIFIER, expecting '}'
+...:src => img src='v.png' onclick="this.src='x.png'")}></scrip...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected ')', expecting '}'
+...ng' onclick="this.src='x.png'")}></script>\n</div>\n<div id=...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: unknown regexp options - dv
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected $undefined
+...c='x.png'")}></script>\n</div>\n<div id='v2'></div>\n<div id...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...'")}></script>\n</div>\n<div id='v2'></div>\n<div id='x1'></...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected '<'
+...script>\n</div>\n<div id='v2'></div>\n<div id='x1'></div>\n<...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: unknown regexp options - dv
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected $undefined
+...2'></div>\n<div id='x1'></div>\n<div id='x2'></div>\n", -1, ...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...>\n<div id='x1'></div>\n<div id='x2'></div>\n", -1, false);:...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected '<'
+... id='x1'></div>\n<div id='x2'></div>\n", -1, false);::Haml::...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: unterminated regexp meets end of file
+Function body:           def _app_views_courses_s___html_haml___774810699__624394198(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "courses/s32";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( stylesheet_link_tag 's32'
+));}\n<div id='image'>\n  #{_hamlout.adjust_tabs(1); 
+
+
+
+_hamlout.format_script_false_false_false_true_false_true_false((image_tag('s3-2.png')
+));}\n</div>\n<div id='next'>\n  #{
+
+_hamlout.format_script_false_false_false_true_false_true_false(( link_to image_tag('next.png'), 's33'
+));}\n</div>\n<div id='v1'>\n  #{
+
+_hamlout.format_script_false_false_false_true_false_true_false((image_tag('v.png')
+));}\n  <!-- / %script{:type => \"text/javascript\", :src => \"javascripts/s32\"} -->\n  <!-- / %script{:type => \"text/javascript\", :function changeImg(img, newimg) { img.src = \"x.png\";} -->\n  <script#{
+
+_hamlout.attributes({}, nil, :type => "text/javascript", :src => img src='v.png' onclick="this.src='x.png'")}></script>\n</div>\n<div id='v2'></div>\n<div id='x1'></div>\n<div id='x2'></div>\n", -1, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/usr/local/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:403:in `_run__110676450__process_action__886565285__callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/usr/local/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/usr/local/lib/ruby/gems/1.9.1/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/omniauth-1.1.1/lib/omniauth/strategy.rb:177:in `call!'
+/usr/local/lib/ruby/gems/1.9.1/gems/omniauth-1.1.1/lib/omniauth/strategy.rb:157:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/omniauth-1.1.1/lib/omniauth/builder.rb:48:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/rack.rb:54:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__52856986__call__883745773__callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/usr/local/lib/ruby/gems/1.9.1/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+  Rendered courses/s32.html.haml (5.3ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...xt/javascript", :src => img src='v.png' onclick="this.src='x...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected tIDENTIFIER, expecting '}'
+...:src => img src='v.png' onclick="this.src='x.png'")}></scrip...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected ')', expecting '}'
+...ng' onclick="this.src='x.png'")}></script>\n</div>\n<div id=...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: unknown regexp options - dv
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected $undefined
+...c='x.png'")}></script>\n</div>\n<div id='v2'></div>\n<div id...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...'")}></script>\n</div>\n<div id='v2'></div>\n<div id='x1'></...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected '<'
+...script>\n</div>\n<div id='v2'></div>\n<div id='x1'></div>\n<...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: unknown regexp options - dv
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected $undefined
+...2'></div>\n<div id='x1'></div>\n<div id='x2'></div>\n", -1, ...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...>\n<div id='x1'></div>\n<div id='x2'></div>\n", -1, false);:...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: syntax error, unexpected '<'
+... id='x1'></div>\n<div id='x2'></div>\n", -1, false);::Haml::...
+...                               ^
+/home/ubuntu/Documents/beautyTea2/app/views/courses/s32.html.haml:15: unterminated regexp meets end of file):
+    12:   =image_tag('v.png')
+    13:   // %script{:type => "text/javascript", :src => "javascripts/s32"}
+    14:   // %script{:type => "text/javascript", :function changeImg(img, newimg) { img.src = "x.png";}
+    15:   %script{:type => "text/javascript", :src => img src='v.png' onclick="this.src='x.png'"}
+    16: 
+    17: %div#v2
+    18: 
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /usr/local/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:403:in `_run__110676450__process_action__886565285__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  omniauth (1.1.1) lib/omniauth/strategy.rb:177:in `call!'
+  omniauth (1.1.1) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.1) lib/omniauth/builder.rb:48:in `call'
+  sass (3.2.3) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__52856986__call__883745773__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (33.2ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (40.9ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 19:37:54 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (5.1ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 19:37:54 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 19:37:54 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:37:54 -0800
+Served asset /next.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-12 19:37:54 -0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32" for 127.0.0.1 at 2013-01-12 19:42:14 -0800
+Processing by CoursesController#s32 as HTML
+  Rendered courses/s32.html.haml (2.9ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 19:42:14 -0800
+Served asset /s32.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/s3-2.png" for 127.0.0.1 at 2013-01-12 19:42:14 -0800
+Served asset /s3-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:42:14 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32-1" for 127.0.0.1 at 2013-01-12 19:42:17 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/s32-1"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/courses/s32-1" for 127.0.0.1 at 2013-01-12 19:43:07 -0800
+Processing by CoursesController#s32-1 as HTML
+  Rendered courses/s32-1.html.haml (3.4ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 19:43:07 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-1.png" for 127.0.0.1 at 2013-01-12 19:43:07 -0800
+Served asset /32-1.png - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/32-1.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:43:07 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32-1" for 127.0.0.1 at 2013-01-12 19:43:59 -0800
+Processing by CoursesController#s32-1 as HTML
+  Rendered courses/s32-1.html.haml (0.8ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 19:43:59 -0800
+Served asset /s32.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:43:59 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-1.png" for 127.0.0.1 at 2013-01-12 19:43:59 -0800
+Served asset /32-1.png - 200 OK (7ms)
+
+
+Started GET "/courses/s32-1" for 127.0.0.1 at 2013-01-12 19:44:25 -0800
+Processing by CoursesController#s32-1 as HTML
+  Rendered courses/s32-1.html.haml (3.8ms)
+Completed 200 OK in 13ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/s32.css?body=1" for 127.0.0.1 at 2013-01-12 19:44:25 -0800
+Served asset /s32.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/32-1.png" for 127.0.0.1 at 2013-01-12 19:44:25 -0800
+Served asset /32-1.png - 304 Not Modified (4ms)
+
+
+Started GET "/courses/s32-1" for 127.0.0.1 at 2013-01-12 19:47:31 -0800
+Processing by CoursesController#s32-1 as HTML
+  Rendered courses/s32-1.html.haml (2.6ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:47:31 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-1.png" for 127.0.0.1 at 2013-01-12 19:47:31 -0800
+Served asset /32-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32-2" for 127.0.0.1 at 2013-01-12 19:47:34 -0800
+Processing by CoursesController#s32-2 as HTML
+  Rendered courses/s32-2.html.haml (11.4ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:47:34 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-2.png" for 127.0.0.1 at 2013-01-12 19:47:34 -0800
+Served asset /32-2.png - 200 OK (16ms)
+
+
+Started GET "/courses/s32-2" for 127.0.0.1 at 2013-01-12 19:48:47 -0800
+Processing by CoursesController#s32-2 as HTML
+  Rendered courses/s32-2.html.haml (3.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:48:47 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-2.png" for 127.0.0.1 at 2013-01-12 19:48:47 -0800
+Served asset /32-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32-2" for 127.0.0.1 at 2013-01-12 19:50:23 -0800
+Processing by CoursesController#s32-2 as HTML
+  Rendered courses/s32-2.html.haml (1.1ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:50:23 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-2.png" for 127.0.0.1 at 2013-01-12 19:50:23 -0800
+Served asset /32-2.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s32-3" for 127.0.0.1 at 2013-01-12 19:50:24 -0800
+Processing by CoursesController#s32-3 as HTML
+  Rendered courses/s32-3.html.haml (2.1ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:50:24 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-3.png" for 127.0.0.1 at 2013-01-12 19:50:24 -0800
+Served asset /32-3.png - 200 OK (10ms)
+
+
+Started GET "/courses/s32-4" for 127.0.0.1 at 2013-01-12 19:50:26 -0800
+Processing by CoursesController#s32-4 as HTML
+  Rendered courses/s32-4.html.haml (2.4ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:50:26 -0800
+Served asset /courses.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/32-4.png" for 127.0.0.1 at 2013-01-12 19:50:26 -0800
+Served asset /32-4.png - 200 OK (59ms)
+
+
+Started GET "/courses/s32-5" for 127.0.0.1 at 2013-01-12 19:50:27 -0800
+Processing by CoursesController#s32-5 as HTML
+  Rendered courses/s32-5.html.haml (2.1ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:50:27 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/32-5.png" for 127.0.0.1 at 2013-01-12 19:50:27 -0800
+Served asset /32-5.png - 200 OK (14ms)
+
+
+Started GET "/courses/s34" for 127.0.0.1 at 2013-01-12 19:50:28 -0800
+Processing by CoursesController#s34 as HTML
+  Rendered courses/s34.html.haml (2.1ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:50:28 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:50:28 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34" for 127.0.0.1 at 2013-01-12 19:53:43 -0800
+Processing by CoursesController#s34 as HTML
+  Rendered courses/s34.html.haml (9.8ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:53:43 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-12 19:53:43 -0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s3-4.png" for 127.0.0.1 at 2013-01-12 19:53:43 -0800
+Served asset /s3-4.png - 200 OK (8ms)
+
+
+Started GET "/courses/s34-1" for 127.0.0.1 at 2013-01-12 19:53:45 -0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/s34-1"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/courses/s34-1" for 127.0.0.1 at 2013-01-12 19:55:59 -0800
+Processing by CoursesController#s34-1 as HTML
+  Rendered courses/s34-1.html.haml (2.7ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:55:59 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-1.png" for 127.0.0.1 at 2013-01-12 19:55:59 -0800
+Served asset /34-1.png - 404 Not Found (13ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/34-1.png"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/courses/s34-1" for 127.0.0.1 at 2013-01-12 19:56:42 -0800
+Processing by CoursesController#s34-1 as HTML
+  Rendered courses/s34-1.html.haml (1.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 19:56:42 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-1.png" for 127.0.0.1 at 2013-01-12 19:56:42 -0800
+Served asset /34-1.png - 200 OK (9ms)
+
+
+Started GET "/courses/s34-1" for 127.0.0.1 at 2013-01-12 20:01:21 -0800
+Processing by CoursesController#s34-1 as HTML
+  Rendered courses/s34-1.html.haml (1.5ms)
+Completed 200 OK in 9ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:01:21 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-1.png" for 127.0.0.1 at 2013-01-12 20:01:21 -0800
+Served asset /34-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-1" for 127.0.0.1 at 2013-01-12 20:01:27 -0800
+Processing by CoursesController#s34-1 as HTML
+  Rendered courses/s34-1.html.haml (1.3ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:01:27 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-1.png" for 127.0.0.1 at 2013-01-12 20:01:27 -0800
+Served asset /34-1.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/s34-1" for 127.0.0.1 at 2013-01-12 20:01:28 -0800
+Processing by CoursesController#s34-1 as HTML
+  Rendered courses/s34-1.html.haml (1.9ms)
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-12 20:01:28 -0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/34-1.png" for 127.0.0.1 at 2013-01-12 20:01:28 -0800
+Served asset /34-1.png - 304 Not Modified (0ms)

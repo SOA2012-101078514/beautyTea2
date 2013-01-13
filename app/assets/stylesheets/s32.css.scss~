@@ -1,0 +1,30 @@
+html, body {  
+  margin:0 auto;
+  background-color:#8cc63f;
+}
+
+div#image{
+  position:absolute;
+}
+
+div#next {
+  position:absolute;
+  right: 1px;
+  top:1px;
+}
+
+div#v1 {
+  position:absolute;
+  left:250px;
+  top:270px;
+}
+
+div#v2 {
+}
+
+div#x1 {
+}
+
+div#x2 {
+}
+
