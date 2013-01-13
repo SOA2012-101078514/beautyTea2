@@ -1,21 +1,19 @@
 = stylesheet_link_tag 's32'
+=  javascript_include_tag 's32'
+
+%body
 
 
 
 %div#image
   =link_to image_tag('s3-2.png'), 's32-1'
 
-
-
-
-
-
-
 %div#v1
-  //=image_tag('v.png')
+  //var img =image_tag('v.png')
+  //= changeImage()
   // %script{:type => "text/javascript", :src => "javascripts/s32"}
   // %script{:type => "text/javascript", :function changeImg(img, newimg) { img.src = "x.png";}
-  //%script{:type => "text/javascript", :src => img src='v.png' onclick="this.src='x.png'"}
+  // %script{:type => "text/javascript", :src => img src='v.png' onclick="this.src='x.png'"}
 
 %div#v2
 
