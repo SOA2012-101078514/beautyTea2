@@ -2,8 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 gem 'haml'
-gem 'omniauth'
-gem 'omniauth-facebook', '1.4.0'
 gem 'simple-navigation'
 
 # Bundle edge Rails instead:
