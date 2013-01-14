@@ -58135,3 +58135,925 @@ Served asset /btn_eduprocess.png - 304 Not Modified (0ms)
 
 Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-14 04:39:37 +0800
 Served asset /btn_deptintro.png - 304 Not Modified (0ms)
+
+
+Started GET "/check" for 127.0.0.1 at 2013-01-14 05:15:24 +0800
+Connecting to database specified by database.yml
+Processing by BulletinsController#check_login as HTML
+Redirected to http://localhost:3000/log_in
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/log_in" for 127.0.0.1 at 2013-01-14 05:15:28 +0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (87.4ms)
+Completed 200 OK in 974ms (Views: 973.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:29 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:29 +0800
+Served asset /users.js - 304 Not Modified (125ms)
+
+
+Started GET "/assets/certification.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /certification.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/account.css?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /account.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /main.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /wanteds.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /application.js - 304 Not Modified (92ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /jquery.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /education.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /people.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /sessions.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /welcome.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /bulletins.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /about.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/s32.js?body=1" for 127.0.0.1 at 2013-01-14 05:15:30 +0800
+Served asset /s32.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-14 05:15:31 +0800
+Served asset /banner.png - 304 Not Modified (38ms)
+
+
+Started GET "/bulletins/courses/s11" for 127.0.0.1 at 2013-01-14 05:15:42 +0800
+
+ActionController::RoutingError (No route matches [GET] "/bulletins/courses/s11"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/bulletins/courses/s11" for 127.0.0.1 at 2013-01-14 05:15:53 +0800
+
+ActionController::RoutingError (No route matches [GET] "/bulletins/courses/s11"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/bulletins/courses/s11" for 127.0.0.1 at 2013-01-14 05:15:57 +0800
+
+ActionController::RoutingError (No route matches [GET] "/bulletins/courses/s11"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/courses/s11" for 127.0.0.1 at 2013-01-14 05:16:08 +0800
+Processing by CoursesController#s11 as HTML
+  Rendered courses/s11.html.haml (76.8ms)
+Completed 200 OK in 80ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-14 05:16:09 +0800
+Served asset /courses.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/s1-1.png" for 127.0.0.1 at 2013-01-14 05:16:09 +0800
+Served asset /s1-1.png - 304 Not Modified (451ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-14 05:16:09 +0800
+Served asset /next.png - 304 Not Modified (85ms)
+
+
+Started GET "/courses/s11" for 127.0.0.1 at 2013-01-14 05:16:19 +0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/s11"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/courses/s" for 127.0.0.1 at 2013-01-14 05:16:25 +0800
+Processing by CoursesController#s11 as HTML
+  Rendered courses/s11.html.haml (1.6ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/courses.css?body=1" for 127.0.0.1 at 2013-01-14 05:16:25 +0800
+Served asset /courses.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s1-1.png" for 127.0.0.1 at 2013-01-14 05:16:25 +0800
+Served asset /s1-1.png - 304 Not Modified (27ms)
+
+
+Started GET "/assets/next.png" for 127.0.0.1 at 2013-01-14 05:16:25 +0800
+Served asset /next.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:17:19 +0800
+
+SyntaxError (/home/ubuntu/Documents/beautyTea2/config/routes.rb:26: syntax error, unexpected '=', expecting keyword_end
+  get "courses/test" = "courses#test"
+                      ^):
+  activesupport (3.2.8) lib/active_support/dependencies.rb:245:in `load'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:245:in `block in load'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.8) lib/active_support/dependencies.rb:245:in `load'
+  railties (3.2.8) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (3.2.8) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (3.2.8) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (3.2.8) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (3.2.8) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (3.2.8) lib/active_support/file_update_checker.rb:78:in `call'
+  activesupport (3.2.8) lib/active_support/file_update_checker.rb:78:in `execute'
+  activesupport (3.2.8) lib/active_support/file_update_checker.rb:86:in `execute_if_updated'
+  railties (3.2.8) lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+  railties (3.2.8) lib/rails/application/finisher.rb:68:in `block (2 levels) in <module:Finisher>'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:429:in `_run__338634495__prepare__155458984__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (73.1ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:17:34 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:18:02 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (4.3ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:18:17 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:19:08 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:26:27 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:26:51 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:28:23 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.5ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:28:24 +0800
+Served asset /v.png - 200 OK (72ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:29:01 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 14ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:29:02 +0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s1-1.png" for 127.0.0.1 at 2013-01-14 05:31:51 +0800
+Served asset /s1-1.png - 304 Not Modified (11ms)
+
+
+Started GET "/courses/s" for 127.0.0.1 at 2013-01-14 05:31:55 +0800
+
+ActionController::RoutingError (No route matches [GET] "/courses/s"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:31:58 +0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:33:26 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.9ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:33:28 +0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:38:08 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:38:08 +0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:38:50 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:38:51 +0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:39:11 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:39:11 +0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:46:48 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:46:48 +0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:54:38 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.8ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:54:39 +0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:54:54 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:54:55 +0800
+Served asset /v.png - 304 Not Modified (0ms)
+
+
+Started GET "/courses/test" for 127.0.0.1 at 2013-01-14 05:58:53 +0800
+Processing by CoursesController#test as HTML
+  Rendered courses/test.html.erb (0.6ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/v.png" for 127.0.0.1 at 2013-01-14 05:58:54 +0800
+Served asset /v.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (19.7ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (72.3ms)[0m  CREATE TABLE "bulletins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "msg" varchar(255), "date" date, "deadline" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (21.7ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "phone" varchar(255), "mode" varchar(255), "pass_course" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "admin" boolean DEFAULT 'f') [0m
+  [1m[35m (16.9ms)[0m  CREATE TABLE "wanteds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "msg" text, "date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (21.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (16.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (20.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130113105746')[0m
+  [1m[35m (15.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20121217032853')
+  [1m[36m (16.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130105075439')[0m
+  [1m[35m (16.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130111115646')
+  [1m[36m (20.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20121217053146')[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Andy Phil' LIMIT 1
+  [1m[36mSQL (26.5ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "mode", "name", "pass_course", "phone", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["admin", false], ["created_at", Mon, 14 Jan 2013 00:37:26 UTC +00:00], ["mode", "admin"], ["name", "Andy Phil"], ["pass_course", false], ["phone", "0988"], ["updated_at", Mon, 14 Jan 2013 00:37:26 UTC +00:00]]
+  [1m[35m (74.3ms)[0m  commit transaction
+  [1m[36mSQL (15.0ms)[0m  [1mUPDATE "users" SET "admin" = 't' WHERE "users"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."name" = 'Yo Yo' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("admin", "created_at", "mode", "name", "pass_course", "phone", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["admin", false], ["created_at", Mon, 14 Jan 2013 00:37:26 UTC +00:00], ["mode", "admin"], ["name", "Yo Yo"], ["pass_course", false], ["phone", "333"], ["updated_at", Mon, 14 Jan 2013 00:37:26 UTC +00:00]]
+  [1m[36m (15.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mSQL (14.1ms)[0m  UPDATE "users" SET "admin" = 't' WHERE "users"."id" = 2
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."name" = 'Wei Wei' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("admin", "created_at", "mode", "name", "pass_course", "phone", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["admin", false], ["created_at", Mon, 14 Jan 2013 00:37:26 UTC +00:00], ["mode", "normal"], ["name", "Wei Wei"], ["pass_course", false], ["phone", "0977"], ["updated_at", Mon, 14 Jan 2013 00:37:26 UTC +00:00]]
+  [1m[35m (17.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "bulletins" ("created_at", "date", "deadline", "msg", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 14 Jan 2013 00:37:26 UTC +00:00], ["date", Sat, 20 Oct 2012], ["deadline", Thu, 01 Nov 2012], ["msg", "Special Workshop"], ["updated_at", Mon, 14 Jan 2013 00:37:26 UTC +00:00]]
+  [1m[36m (21.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "bulletins" ("created_at", "date", "deadline", "msg", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 14 Jan 2013 00:37:26 UTC +00:00], ["date", Sun, 16 Dec 2012], ["deadline", Mon, 14 Jan 2013], ["msg", "New Course Soon"], ["updated_at", Mon, 14 Jan 2013 00:37:26 UTC +00:00]]
+  [1m[35m (15.7ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-14 08:38:01 +0800
+Connecting to database specified by database.yml
+Processing by BulletinsController#welcome as HTML
+  Rendered bulletins/welcome.html.haml within layouts/application (74.7ms)
+Completed 200 OK in 1265ms (Views: 1263.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-14 08:38:05 +0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /bulletins.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /welcome.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /jquery.js - 304 Not Modified (58ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /users.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/certification.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /certification.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /application.js - 304 Not Modified (150ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /about.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /main.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /education.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /people.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /sessions.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /wanteds.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /welcome.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/s32.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /s32.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/leaf_enter.png" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /leaf_enter.png - 304 Not Modified (16ms)
+
+
+Started GET "/assets/welcome.png" for 127.0.0.1 at 2013-01-14 08:38:06 +0800
+Served asset /welcome.png - 304 Not Modified (19ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2013-01-14 08:38:08 +0800
+Processing by BulletinsController#index as HTML
+  [1m[36mBulletin Load (0.1ms)[0m  [1mSELECT "bulletins".* FROM "bulletins" [0m
+  Rendered bulletins/index.html.haml within layouts/application (79.0ms)
+Completed 200 OK in 285ms (Views: 118.2ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-14 08:38:08 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:08 +0800
+Served asset /jquery.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/certification.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:08 +0800
+Served asset /certification.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:08 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:08 +0800
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /bulletins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /education.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s32.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /s32.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /home.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /application.js - 304 Not Modified (146ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /banner.png - 304 Not Modified (84ms)
+
+
+Started GET "/assets/btn_entersys.png" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /btn_entersys.png - 304 Not Modified (94ms)
+
+
+Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /btn_deptintro.png - 304 Not Modified (32ms)
+
+
+Started GET "/assets/btn_eduprocess.png" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /btn_eduprocess.png - 304 Not Modified (37ms)
+
+
+Started GET "/assets/btn_newinfo.png" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /btn_newinfo.png - 304 Not Modified (13ms)
+
+
+Started GET "/assets/btn_certification.png" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /btn_certification.png - 304 Not Modified (22ms)
+
+
+Started GET "/assets/e-learning.png" for 127.0.0.1 at 2013-01-14 08:38:09 +0800
+Served asset /e-learning.png - 304 Not Modified (61ms)
+
+
+Started GET "/log_in" for 127.0.0.1 at 2013-01-14 08:38:11 +0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (50.9ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/account.css?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /account.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/certification.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /certification.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /bulletins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /education.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /people.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s32.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /s32.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tea.png" for 127.0.0.1 at 2013-01-14 08:38:12 +0800
+Served asset /tea.png - 304 Not Modified (43ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-01-14 08:38:24 +0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eOcBIJyzmmkPTtF0eqCGo2fOuI8dCG+SBGP43BfVJ3E=", "name"=>"Yo Yo", "phone"=>"333", "commit"=>"Login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Yo Yo' LIMIT 1
+Redirected to http://localhost:3000/bulletins
+Completed 302 Found in 83ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2013-01-14 08:38:24 +0800
+Processing by BulletinsController#index as HTML
+  [1m[36mBulletin Load (0.2ms)[0m  [1mSELECT "bulletins".* FROM "bulletins" [0m
+  [1m[35mUser Load (48.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered bulletins/index.html.haml within layouts/application (64.3ms)
+Completed 200 OK in 81ms (Views: 31.7ms | ActiveRecord: 48.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-14 08:38:24 +0800
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-14 08:38:24 +0800
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:24 +0800
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:24 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:24 +0800
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/certification.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /certification.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /bulletins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/s32.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /s32.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /education.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_entersys.png" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /btn_entersys.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_newinfo.png" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /btn_newinfo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/btn_deptintro.png" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /btn_deptintro.png - 304 Not Modified (21ms)
+
+
+Started GET "/assets/btn_eduprocess.png" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /btn_eduprocess.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/btn_certification.png" for 127.0.0.1 at 2013-01-14 08:38:25 +0800
+Served asset /btn_certification.png - 304 Not Modified (0ms)
+
+
+Started GET "/log_out" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Processing by BulletinsController#welcome as HTML
+  Rendered bulletins/welcome.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 101ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /welcome.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /about.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bulletins.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /bulletins.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /education.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /people.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/s32.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /s32.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/certification.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /certification.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wanteds.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /wanteds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.png" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /welcome.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leaf_enter.png" for 127.0.0.1 at 2013-01-14 08:38:31 +0800
+Served asset /leaf_enter.png - 304 Not Modified (0ms)
